@@ -1,13 +1,14 @@
 //SPDX-License-Identifier: UNLICENSED
 pragma solidity =0.8.17;
 
-import "../../core/interfaces/IIotaBeeSwapPool.sol";
 import "../../core/IotaBeeSwapPool.sol";
 
 library IotaBeeSwapLibrary {
     uint24 public constant FEE_DIV_CONST = 100000;
+
+    //keccak256(abi.encodePacked(type(IotaBeeSwapPool).creationCode));
     bytes32 internal constant POOL_INIT_CODE_HASH =
-        keccak256(abi.encodePacked(type(IotaBeeSwapPool).creationCode));
+        0x82f55003685db2e34837f9b3a491bed953c4b487155395c74fd42ca2301621fc;
 
     // returns sorted token addresses, used to handle return values from pools sorted in this order
     function sortTokens(address tokenA, address tokenB)
@@ -37,9 +38,7 @@ library IotaBeeSwapLibrary {
                         abi.encodePacked(
                             hex"ff",
                             factory,
-                            keccak256(
-                                abi.encodePacked(token0, token1, feeRate)
-                            ),
+                            keccak256(abi.encode(token0, token1, feeRate)),
                             POOL_INIT_CODE_HASH
                         )
                     )
