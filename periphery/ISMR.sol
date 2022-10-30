@@ -4,7 +4,7 @@ pragma solidity =0.8.17;
 contract ISMR {
     string public name = "Wrapped Smr";
     string public symbol = "WSMR";
-    uint8 public decimals = 18;
+    uint8 public decimals = 6;
 
     event Approval(address indexed src, address indexed guy, uint256 wad);
     event Transfer(address indexed src, address indexed dst, uint256 wad);
