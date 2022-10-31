@@ -248,7 +248,9 @@ contract IotaBeeSwapPool is IIotaBeeSwapPool, IotaBeeSwapERC20 {
                 (amount1In * feeRate);
             require(
                 balance0Adjusted * balance1Adjusted >=
-                    _reserve0 * _reserve1 * (FEE_DIV_CONST**2),
+                    uint256(_reserve0) *
+                        uint256(_reserve1) *
+                        uint256(FEE_DIV_CONST**2),
                 "IotaBeeSwap: K"
             );
         }

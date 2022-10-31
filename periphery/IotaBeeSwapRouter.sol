@@ -411,7 +411,7 @@ contract IotaBeeSwapRouter is IIotaBeeSwapRouter {
     function getAmountsOut(
         uint256 amountIn,
         address[] memory path,
-        uint24[] calldata feeRates
+        uint24[] memory feeRates
     ) public view override returns (uint256[] memory amounts) {
         return
             IotaBeeSwapLibrary.getAmountsOut(factory, amountIn, path, feeRates);
@@ -420,7 +420,7 @@ contract IotaBeeSwapRouter is IIotaBeeSwapRouter {
     function getAmountsIn(
         uint256 amountOut,
         address[] memory path,
-        uint24[] calldata feeRates
+        uint24[] memory feeRates
     ) public view override returns (uint256[] memory amounts) {
         return
             IotaBeeSwapLibrary.getAmountsIn(factory, amountOut, path, feeRates);
