@@ -1,9 +1,9 @@
 {
     "contractName": "IotaBeeSwapOracleLibrary",
     "abi": [],
-    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/contract/iotabee/periphery/libraries/IotaBeeSwapOracleLibrary.sol\":\"IotaBeeSwapOracleLibrary\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/contract/iotabee/core/interfaces/IERC20.sol\":{\"keccak256\":\"0x60acceecff3b37de3e598db1676ac9196e960425d5ca976e60dcad66f98c0b84\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://124ff2848df436b38d27e25ec504b3bbc23a4cfffdd44f6cba3fd4404edc09f9\",\"dweb:/ipfs/QmZ9WJy6bHsxu26sXRyWkiJmk5B6pGDWvMeYL9NVTQTFfN\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapERC20.sol\":{\"keccak256\":\"0x490d4c8c68a6a02f7000d04be1d3b08cb58d0f52454745a285f6bbefaca2c6ea\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://0655f6a7f4f150456f218d6e3aae19e6321023d7921a99c3d77ac68551fb17fc\",\"dweb:/ipfs/Qmf9LsC9ZXg7LEfnKZ5mGF3hL5DPuSviRxKn5rBXUXFCYx\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapPool.sol\":{\"keccak256\":\"0xf4928d700c257cd1c87538c2f42fd19a9b52fbbe851bd9caac03663554ad9f2d\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://0bc85ace30bfa87dff9b5fc4d26add38fb33e10efe78b348904abfe25475d7bd\",\"dweb:/ipfs/QmVncFMknmCVfN2egPVhUZn5zT32dcDRK5Y2HJsFo7vL6z\"]},\"d:/contract/iotabee/periphery/libraries/Babylonian.sol\":{\"keccak256\":\"0xe55aba4c3fb1d7585272238f541175210165c8fe9631e36aa0527b5737d4eb00\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://f3ece1ffce10abcb74e6a603405190ab32a1e8aa3aa71215a9a05d32ad6b1618\",\"dweb:/ipfs/QmV9rbWZbPLdkKGSzAYtbFjtSW5ni7J9Mwx3KaM2ckzZ9Z\"]},\"d:/contract/iotabee/periphery/libraries/BitMath.sol\":{\"keccak256\":\"0x6db8530852cff398c7e129262f1b3d721f6f5c0d2467bc598be6813fe52299da\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://3e7f340b4d29c20b697221ead9f32f15422943a51441edc9455a387704c72680\",\"dweb:/ipfs/QmTHyqvoF5e47QuuXcyBEMAqQBJZhvuabBdXrqPdTYTDZf\"]},\"d:/contract/iotabee/periphery/libraries/FixedPoint.sol\":{\"keccak256\":\"0xec4b5640eb5dbdd1a50f5878690348f45d89d12c14c90b03343ba49a5817cd00\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://62af02933f0ebe7f354a7f27fbac321649b4bf04bc75eb835d27e881530f6611\",\"dweb:/ipfs/QmNfG9iwmZ4VAJAXjQXbZRRKGpcapXsokGshiVz6vgzEmJ\"]},\"d:/contract/iotabee/periphery/libraries/FullMath.sol\":{\"keccak256\":\"0x9468e28edc389b2bc1a0e994ed31468098d6513dcbc705c74e8a2ced0da6f4f0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1d2b43d5ed4a7abcc1430d2a52403087524b1d043789e963a2ef3b67ef92da7c\",\"dweb:/ipfs/QmcQ59HuZdFRRjmHnbwxManw2fgZ7wVUmAeReoUpuLXE15\"]},\"d:/contract/iotabee/periphery/libraries/IotaBeeSwapOracleLibrary.sol\":{\"keccak256\":\"0xfcc20ac36d60b115527bdd0585e9302249bb559ef6b0639816f33985e7032403\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://843e4f3e6b79fcfb7c62857de163dfe72a741c65077e35313cb15a570247eef6\",\"dweb:/ipfs/QmcLEvrkin5gT9fs8PLaQ9kukMFQzt5gUEgdVgRES3GKgT\"]}},\"version\":1}",
-    "bytecode": "60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212202409afb47db575767e8d74ecb97e6cb71e9c736fb7fdf07963c10c81ccf23ffd64736f6c63430008110033",
-    "deployedBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212202409afb47db575767e8d74ecb97e6cb71e9c736fb7fdf07963c10c81ccf23ffd64736f6c63430008110033",
+    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/contract/iotabee/periphery/libraries/IotaBeeSwapOracleLibrary.sol\":\"IotaBeeSwapOracleLibrary\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/contract/iotabee/core/interfaces/IERC20.sol\":{\"keccak256\":\"0x60acceecff3b37de3e598db1676ac9196e960425d5ca976e60dcad66f98c0b84\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://124ff2848df436b38d27e25ec504b3bbc23a4cfffdd44f6cba3fd4404edc09f9\",\"dweb:/ipfs/QmZ9WJy6bHsxu26sXRyWkiJmk5B6pGDWvMeYL9NVTQTFfN\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapERC20.sol\":{\"keccak256\":\"0x490d4c8c68a6a02f7000d04be1d3b08cb58d0f52454745a285f6bbefaca2c6ea\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://0655f6a7f4f150456f218d6e3aae19e6321023d7921a99c3d77ac68551fb17fc\",\"dweb:/ipfs/Qmf9LsC9ZXg7LEfnKZ5mGF3hL5DPuSviRxKn5rBXUXFCYx\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapPool.sol\":{\"keccak256\":\"0xcbf8d51db695470cd023d092b19ffa4ebe50fbb222d1b89eee729f40f9195e0b\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://03f5892179c7af1a8a1e34dfaad0b8850c778c793ce356e1fcfba9288ab8a380\",\"dweb:/ipfs/Qme1kEZHC22J7BvehFBhWdEJYpZFRE7v4bT2mFu1TDvHQg\"]},\"d:/contract/iotabee/periphery/libraries/Babylonian.sol\":{\"keccak256\":\"0xe55aba4c3fb1d7585272238f541175210165c8fe9631e36aa0527b5737d4eb00\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://f3ece1ffce10abcb74e6a603405190ab32a1e8aa3aa71215a9a05d32ad6b1618\",\"dweb:/ipfs/QmV9rbWZbPLdkKGSzAYtbFjtSW5ni7J9Mwx3KaM2ckzZ9Z\"]},\"d:/contract/iotabee/periphery/libraries/BitMath.sol\":{\"keccak256\":\"0x6db8530852cff398c7e129262f1b3d721f6f5c0d2467bc598be6813fe52299da\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://3e7f340b4d29c20b697221ead9f32f15422943a51441edc9455a387704c72680\",\"dweb:/ipfs/QmTHyqvoF5e47QuuXcyBEMAqQBJZhvuabBdXrqPdTYTDZf\"]},\"d:/contract/iotabee/periphery/libraries/FixedPoint.sol\":{\"keccak256\":\"0xec4b5640eb5dbdd1a50f5878690348f45d89d12c14c90b03343ba49a5817cd00\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://62af02933f0ebe7f354a7f27fbac321649b4bf04bc75eb835d27e881530f6611\",\"dweb:/ipfs/QmNfG9iwmZ4VAJAXjQXbZRRKGpcapXsokGshiVz6vgzEmJ\"]},\"d:/contract/iotabee/periphery/libraries/FullMath.sol\":{\"keccak256\":\"0x9468e28edc389b2bc1a0e994ed31468098d6513dcbc705c74e8a2ced0da6f4f0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1d2b43d5ed4a7abcc1430d2a52403087524b1d043789e963a2ef3b67ef92da7c\",\"dweb:/ipfs/QmcQ59HuZdFRRjmHnbwxManw2fgZ7wVUmAeReoUpuLXE15\"]},\"d:/contract/iotabee/periphery/libraries/IotaBeeSwapOracleLibrary.sol\":{\"keccak256\":\"0xfcc20ac36d60b115527bdd0585e9302249bb559ef6b0639816f33985e7032403\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://843e4f3e6b79fcfb7c62857de163dfe72a741c65077e35313cb15a570247eef6\",\"dweb:/ipfs/QmcLEvrkin5gT9fs8PLaQ9kukMFQzt5gUEgdVgRES3GKgT\"]}},\"version\":1}",
+    "bytecode": "60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212204692ebd2ae64c037aa2d36c1c6b9caeb8e657e14b8e82224dd8290fe294ca36f64736f6c63430008110033",
+    "deployedBytecode": "73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212204692ebd2ae64c037aa2d36c1c6b9caeb8e657e14b8e82224dd8290fe294ca36f64736f6c63430008110033",
     "sourceMap": "251:1674:24:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;251:1674:24;;;;;;;;;;;;;;;;;",
     "deployedSourceMap": "251:1674:24:-:0;;;;;;;;",
     "sourcePath": "d:/contract/iotabee/periphery/libraries/IotaBeeSwapOracleLibrary.sol",
@@ -15,36 +15,36 @@
         "absolutePath": "d:/contract/iotabee/periphery/libraries/IotaBeeSwapOracleLibrary.sol",
         "exportedSymbols": {
             "Babylonian": [
-                5502
+                5508
             ],
             "BitMath": [
-                5780
+                5786
             ],
             "FixedPoint": [
-                6427
+                6433
             ],
             "FullMath": [
-                6604
+                6610
             ],
             "IERC20": [
-                1775
+                1781
             ],
             "IIotaBeeSwapERC20": [
-                1829
+                1835
             ],
             "IIotaBeeSwapPool": [
-                2044
+                2050
             ],
             "IotaBeeSwapOracleLibrary": [
-                7722
+                7728
             ]
         },
-        "id": 7723,
+        "id": 7729,
         "license": "GPL-3.0-or-later",
         "nodeType": "SourceUnit",
         "nodes": [
             {
-                "id": 7617,
+                "id": 7623,
                 "literals": [
                     "solidity",
                     ">=",
@@ -57,11 +57,11 @@
             {
                 "absolutePath": "d:/contract/iotabee/core/interfaces/IIotaBeeSwapPool.sol",
                 "file": "../../core/interfaces/IIotaBeeSwapPool.sol",
-                "id": 7618,
+                "id": 7624,
                 "nameLocation": "-1:-1:-1",
                 "nodeType": "ImportDirective",
-                "scope": 7723,
-                "sourceUnit": 2045,
+                "scope": 7729,
+                "sourceUnit": 2051,
                 "src": "74:52:24",
                 "symbolAliases": [],
                 "unitAlias": ""
@@ -69,11 +69,11 @@
             {
                 "absolutePath": "d:/contract/iotabee/periphery/libraries/FixedPoint.sol",
                 "file": "./FixedPoint.sol",
-                "id": 7619,
+                "id": 7625,
                 "nameLocation": "-1:-1:-1",
                 "nodeType": "ImportDirective",
-                "scope": 7723,
-                "sourceUnit": 6428,
+                "scope": 7729,
+                "sourceUnit": 6434,
                 "src": "128:26:24",
                 "symbolAliases": [],
                 "unitAlias": ""
@@ -85,9 +85,9 @@
                 "contractDependencies": [],
                 "contractKind": "library",
                 "fullyImplemented": true,
-                "id": 7722,
+                "id": 7728,
                 "linearizedBaseContracts": [
-                    7722
+                    7728
                 ],
                 "name": "IotaBeeSwapOracleLibrary",
                 "nameLocation": "259:24:24",
@@ -95,15 +95,15 @@
                 "nodes": [
                     {
                         "global": false,
-                        "id": 7621,
+                        "id": 7627,
                         "libraryName": {
-                            "id": 7620,
+                            "id": 7626,
                             "name": "FixedPoint",
                             "nameLocations": [
                                 "297:10:24"
                             ],
                             "nodeType": "IdentifierPath",
-                            "referencedDeclaration": 6427,
+                            "referencedDeclaration": 6433,
                             "src": "297:10:24"
                         },
                         "nodeType": "UsingForDirective",
@@ -111,7 +111,7 @@
                     },
                     {
                         "body": {
-                            "id": 7636,
+                            "id": 7642,
                             "nodeType": "Block",
                             "src": "499:57:24",
                             "statements": [
@@ -123,14 +123,14 @@
                                                     "typeIdentifier": "t_uint256",
                                                     "typeString": "uint256"
                                                 },
-                                                "id": 7633,
+                                                "id": 7639,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": false,
                                                 "lValueRequested": false,
                                                 "leftExpression": {
                                                     "expression": {
-                                                        "id": 7628,
+                                                        "id": 7634,
                                                         "name": "block",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
@@ -141,7 +141,7 @@
                                                             "typeString": "block"
                                                         }
                                                     },
-                                                    "id": 7629,
+                                                    "id": 7635,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
@@ -162,14 +162,14 @@
                                                         "typeIdentifier": "t_rational_4294967296_by_1",
                                                         "typeString": "int_const 4294967296"
                                                     },
-                                                    "id": 7632,
+                                                    "id": 7638,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": true,
                                                     "lValueRequested": false,
                                                     "leftExpression": {
                                                         "hexValue": "32",
-                                                        "id": 7630,
+                                                        "id": 7636,
                                                         "isConstant": false,
                                                         "isLValue": false,
                                                         "isPure": true,
@@ -187,7 +187,7 @@
                                                     "operator": "**",
                                                     "rightExpression": {
                                                         "hexValue": "3332",
-                                                        "id": 7631,
+                                                        "id": 7637,
                                                         "isConstant": false,
                                                         "isLValue": false,
                                                         "isPure": true,
@@ -221,7 +221,7 @@
                                                     "typeString": "uint256"
                                                 }
                                             ],
-                                            "id": 7627,
+                                            "id": 7633,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": true,
@@ -233,14 +233,14 @@
                                                 "typeString": "type(uint32)"
                                             },
                                             "typeName": {
-                                                "id": 7626,
+                                                "id": 7632,
                                                 "name": "uint32",
                                                 "nodeType": "ElementaryTypeName",
                                                 "src": "517:6:24",
                                                 "typeDescriptions": {}
                                             }
                                         },
-                                        "id": 7634,
+                                        "id": 7640,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -256,14 +256,14 @@
                                             "typeString": "uint32"
                                         }
                                     },
-                                    "functionReturnParameters": 7625,
-                                    "id": 7635,
+                                    "functionReturnParameters": 7631,
+                                    "id": 7641,
                                     "nodeType": "Return",
                                     "src": "510:38:24"
                                 }
                             ]
                         },
-                        "id": 7637,
+                        "id": 7643,
                         "implemented": true,
                         "kind": "function",
                         "modifiers": [],
@@ -271,23 +271,23 @@
                         "nameLocation": "444:21:24",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 7622,
+                            "id": 7628,
                             "nodeType": "ParameterList",
                             "parameters": [],
                             "src": "465:2:24"
                         },
                         "returnParameters": {
-                            "id": 7625,
+                            "id": 7631,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 7624,
+                                    "id": 7630,
                                     "mutability": "mutable",
                                     "name": "",
                                     "nameLocation": "-1:-1:-1",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 7637,
+                                    "scope": 7643,
                                     "src": "491:6:24",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -296,7 +296,7 @@
                                         "typeString": "uint32"
                                     },
                                     "typeName": {
-                                        "id": 7623,
+                                        "id": 7629,
                                         "name": "uint32",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "491:6:24",
@@ -310,7 +310,7 @@
                             ],
                             "src": "490:8:24"
                         },
-                        "scope": 7722,
+                        "scope": 7728,
                         "src": "435:121:24",
                         "stateMutability": "view",
                         "virtual": false,
@@ -318,23 +318,23 @@
                     },
                     {
                         "body": {
-                            "id": 7720,
+                            "id": 7726,
                             "nodeType": "Block",
                             "src": "889:1033:24",
                             "statements": [
                                 {
                                     "expression": {
-                                        "id": 7651,
+                                        "id": 7657,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 7648,
+                                            "id": 7654,
                                             "name": "blockTimestamp",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 7646,
+                                            "referencedDeclaration": 7652,
                                             "src": "900:14:24",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint32",
@@ -347,18 +347,18 @@
                                             "arguments": [],
                                             "expression": {
                                                 "argumentTypes": [],
-                                                "id": 7649,
+                                                "id": 7655,
                                                 "name": "currentBlockTimestamp",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 7637,
+                                                "referencedDeclaration": 7643,
                                                 "src": "917:21:24",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_function_internal_view$__$returns$_t_uint32_$",
                                                     "typeString": "function () view returns (uint32)"
                                                 }
                                             },
-                                            "id": 7650,
+                                            "id": 7656,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
@@ -380,23 +380,23 @@
                                             "typeString": "uint32"
                                         }
                                     },
-                                    "id": 7652,
+                                    "id": 7658,
                                     "nodeType": "ExpressionStatement",
                                     "src": "900:40:24"
                                 },
                                 {
                                     "expression": {
-                                        "id": 7659,
+                                        "id": 7665,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 7653,
+                                            "id": 7659,
                                             "name": "price0Cumulative",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 7642,
+                                            "referencedDeclaration": 7648,
                                             "src": "951:16:24",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -412,11 +412,11 @@
                                                 "expression": {
                                                     "arguments": [
                                                         {
-                                                            "id": 7655,
+                                                            "id": 7661,
                                                             "name": "pool",
                                                             "nodeType": "Identifier",
                                                             "overloadedDeclarations": [],
-                                                            "referencedDeclaration": 7639,
+                                                            "referencedDeclaration": 7645,
                                                             "src": "987:4:24",
                                                             "typeDescriptions": {
                                                                 "typeIdentifier": "t_address",
@@ -431,18 +431,18 @@
                                                                 "typeString": "address"
                                                             }
                                                         ],
-                                                        "id": 7654,
+                                                        "id": 7660,
                                                         "name": "IIotaBeeSwapPool",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 2044,
+                                                        "referencedDeclaration": 2050,
                                                         "src": "970:16:24",
                                                         "typeDescriptions": {
-                                                            "typeIdentifier": "t_type$_t_contract$_IIotaBeeSwapPool_$2044_$",
+                                                            "typeIdentifier": "t_type$_t_contract$_IIotaBeeSwapPool_$2050_$",
                                                             "typeString": "type(contract IIotaBeeSwapPool)"
                                                         }
                                                     },
-                                                    "id": 7656,
+                                                    "id": 7662,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
@@ -454,11 +454,11 @@
                                                     "src": "970:22:24",
                                                     "tryCall": false,
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_contract$_IIotaBeeSwapPool_$2044",
+                                                        "typeIdentifier": "t_contract$_IIotaBeeSwapPool_$2050",
                                                         "typeString": "contract IIotaBeeSwapPool"
                                                     }
                                                 },
-                                                "id": 7657,
+                                                "id": 7663,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": false,
@@ -466,14 +466,14 @@
                                                 "memberLocation": "993:20:24",
                                                 "memberName": "price0CumulativeLast",
                                                 "nodeType": "MemberAccess",
-                                                "referencedDeclaration": 1998,
+                                                "referencedDeclaration": 2004,
                                                 "src": "970:43:24",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
                                                     "typeString": "function () view external returns (uint256)"
                                                 }
                                             },
-                                            "id": 7658,
+                                            "id": 7664,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
@@ -495,23 +495,23 @@
                                             "typeString": "uint256"
                                         }
                                     },
-                                    "id": 7660,
+                                    "id": 7666,
                                     "nodeType": "ExpressionStatement",
                                     "src": "951:64:24"
                                 },
                                 {
                                     "expression": {
-                                        "id": 7667,
+                                        "id": 7673,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 7661,
+                                            "id": 7667,
                                             "name": "price1Cumulative",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 7644,
+                                            "referencedDeclaration": 7650,
                                             "src": "1026:16:24",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -527,11 +527,11 @@
                                                 "expression": {
                                                     "arguments": [
                                                         {
-                                                            "id": 7663,
+                                                            "id": 7669,
                                                             "name": "pool",
                                                             "nodeType": "Identifier",
                                                             "overloadedDeclarations": [],
-                                                            "referencedDeclaration": 7639,
+                                                            "referencedDeclaration": 7645,
                                                             "src": "1062:4:24",
                                                             "typeDescriptions": {
                                                                 "typeIdentifier": "t_address",
@@ -546,18 +546,18 @@
                                                                 "typeString": "address"
                                                             }
                                                         ],
-                                                        "id": 7662,
+                                                        "id": 7668,
                                                         "name": "IIotaBeeSwapPool",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 2044,
+                                                        "referencedDeclaration": 2050,
                                                         "src": "1045:16:24",
                                                         "typeDescriptions": {
-                                                            "typeIdentifier": "t_type$_t_contract$_IIotaBeeSwapPool_$2044_$",
+                                                            "typeIdentifier": "t_type$_t_contract$_IIotaBeeSwapPool_$2050_$",
                                                             "typeString": "type(contract IIotaBeeSwapPool)"
                                                         }
                                                     },
-                                                    "id": 7664,
+                                                    "id": 7670,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
@@ -569,11 +569,11 @@
                                                     "src": "1045:22:24",
                                                     "tryCall": false,
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_contract$_IIotaBeeSwapPool_$2044",
+                                                        "typeIdentifier": "t_contract$_IIotaBeeSwapPool_$2050",
                                                         "typeString": "contract IIotaBeeSwapPool"
                                                     }
                                                 },
-                                                "id": 7665,
+                                                "id": 7671,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": false,
@@ -581,14 +581,14 @@
                                                 "memberLocation": "1068:20:24",
                                                 "memberName": "price1CumulativeLast",
                                                 "nodeType": "MemberAccess",
-                                                "referencedDeclaration": 2003,
+                                                "referencedDeclaration": 2009,
                                                 "src": "1045:43:24",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
                                                     "typeString": "function () view external returns (uint256)"
                                                 }
                                             },
-                                            "id": 7666,
+                                            "id": 7672,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
@@ -610,25 +610,25 @@
                                             "typeString": "uint256"
                                         }
                                     },
-                                    "id": 7668,
+                                    "id": 7674,
                                     "nodeType": "ExpressionStatement",
                                     "src": "1026:64:24"
                                 },
                                 {
                                     "assignments": [
-                                        7670,
-                                        7672,
-                                        7674
+                                        7676,
+                                        7678,
+                                        7680
                                     ],
                                     "declarations": [
                                         {
                                             "constant": false,
-                                            "id": 7670,
+                                            "id": 7676,
                                             "mutability": "mutable",
                                             "name": "reserve0",
                                             "nameLocation": "1227:8:24",
                                             "nodeType": "VariableDeclaration",
-                                            "scope": 7720,
+                                            "scope": 7726,
                                             "src": "1219:16:24",
                                             "stateVariable": false,
                                             "storageLocation": "default",
@@ -637,7 +637,7 @@
                                                 "typeString": "uint112"
                                             },
                                             "typeName": {
-                                                "id": 7669,
+                                                "id": 7675,
                                                 "name": "uint112",
                                                 "nodeType": "ElementaryTypeName",
                                                 "src": "1219:7:24",
@@ -650,12 +650,12 @@
                                         },
                                         {
                                             "constant": false,
-                                            "id": 7672,
+                                            "id": 7678,
                                             "mutability": "mutable",
                                             "name": "reserve1",
                                             "nameLocation": "1258:8:24",
                                             "nodeType": "VariableDeclaration",
-                                            "scope": 7720,
+                                            "scope": 7726,
                                             "src": "1250:16:24",
                                             "stateVariable": false,
                                             "storageLocation": "default",
@@ -664,7 +664,7 @@
                                                 "typeString": "uint112"
                                             },
                                             "typeName": {
-                                                "id": 7671,
+                                                "id": 7677,
                                                 "name": "uint112",
                                                 "nodeType": "ElementaryTypeName",
                                                 "src": "1250:7:24",
@@ -677,12 +677,12 @@
                                         },
                                         {
                                             "constant": false,
-                                            "id": 7674,
+                                            "id": 7680,
                                             "mutability": "mutable",
                                             "name": "blockTimestampLast",
                                             "nameLocation": "1288:18:24",
                                             "nodeType": "VariableDeclaration",
-                                            "scope": 7720,
+                                            "scope": 7726,
                                             "src": "1281:25:24",
                                             "stateVariable": false,
                                             "storageLocation": "default",
@@ -691,7 +691,7 @@
                                                 "typeString": "uint32"
                                             },
                                             "typeName": {
-                                                "id": 7673,
+                                                "id": 7679,
                                                 "name": "uint32",
                                                 "nodeType": "ElementaryTypeName",
                                                 "src": "1281:6:24",
@@ -703,7 +703,7 @@
                                             "visibility": "internal"
                                         }
                                     ],
-                                    "id": 7680,
+                                    "id": 7686,
                                     "initialValue": {
                                         "arguments": [],
                                         "expression": {
@@ -711,11 +711,11 @@
                                             "expression": {
                                                 "arguments": [
                                                     {
-                                                        "id": 7676,
+                                                        "id": 7682,
                                                         "name": "pool",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 7639,
+                                                        "referencedDeclaration": 7645,
                                                         "src": "1337:4:24",
                                                         "typeDescriptions": {
                                                             "typeIdentifier": "t_address",
@@ -730,18 +730,18 @@
                                                             "typeString": "address"
                                                         }
                                                     ],
-                                                    "id": 7675,
+                                                    "id": 7681,
                                                     "name": "IIotaBeeSwapPool",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 2044,
+                                                    "referencedDeclaration": 2050,
                                                     "src": "1320:16:24",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_type$_t_contract$_IIotaBeeSwapPool_$2044_$",
+                                                        "typeIdentifier": "t_type$_t_contract$_IIotaBeeSwapPool_$2050_$",
                                                         "typeString": "type(contract IIotaBeeSwapPool)"
                                                     }
                                                 },
-                                                "id": 7677,
+                                                "id": 7683,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": false,
@@ -753,11 +753,11 @@
                                                 "src": "1320:22:24",
                                                 "tryCall": false,
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_contract$_IIotaBeeSwapPool_$2044",
+                                                    "typeIdentifier": "t_contract$_IIotaBeeSwapPool_$2050",
                                                     "typeString": "contract IIotaBeeSwapPool"
                                                 }
                                             },
-                                            "id": 7678,
+                                            "id": 7684,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
@@ -765,14 +765,14 @@
                                             "memberLocation": "1343:11:24",
                                             "memberName": "getReserves",
                                             "nodeType": "MemberAccess",
-                                            "referencedDeclaration": 1993,
+                                            "referencedDeclaration": 1999,
                                             "src": "1320:34:24",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_function_external_view$__$returns$_t_uint112_$_t_uint112_$_t_uint32_$",
                                                 "typeString": "function () view external returns (uint112,uint112,uint32)"
                                             }
                                         },
-                                        "id": 7679,
+                                        "id": 7685,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -797,17 +797,17 @@
                                             "typeIdentifier": "t_uint32",
                                             "typeString": "uint32"
                                         },
-                                        "id": 7683,
+                                        "id": 7689,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftExpression": {
-                                            "id": 7681,
+                                            "id": 7687,
                                             "name": "blockTimestampLast",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 7674,
+                                            "referencedDeclaration": 7680,
                                             "src": "1371:18:24",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint32",
@@ -817,11 +817,11 @@
                                         "nodeType": "BinaryOperation",
                                         "operator": "!=",
                                         "rightExpression": {
-                                            "id": 7682,
+                                            "id": 7688,
                                             "name": "blockTimestamp",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 7646,
+                                            "referencedDeclaration": 7652,
                                             "src": "1393:14:24",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint32",
@@ -834,27 +834,27 @@
                                             "typeString": "bool"
                                         }
                                     },
-                                    "id": 7719,
+                                    "id": 7725,
                                     "nodeType": "IfStatement",
                                     "src": "1367:548:24",
                                     "trueBody": {
-                                        "id": 7718,
+                                        "id": 7724,
                                         "nodeType": "Block",
                                         "src": "1409:506:24",
                                         "statements": [
                                             {
                                                 "assignments": [
-                                                    7685
+                                                    7691
                                                 ],
                                                 "declarations": [
                                                     {
                                                         "constant": false,
-                                                        "id": 7685,
+                                                        "id": 7691,
                                                         "mutability": "mutable",
                                                         "name": "timeElapsed",
                                                         "nameLocation": "1479:11:24",
                                                         "nodeType": "VariableDeclaration",
-                                                        "scope": 7718,
+                                                        "scope": 7724,
                                                         "src": "1472:18:24",
                                                         "stateVariable": false,
                                                         "storageLocation": "default",
@@ -863,7 +863,7 @@
                                                             "typeString": "uint32"
                                                         },
                                                         "typeName": {
-                                                            "id": 7684,
+                                                            "id": 7690,
                                                             "name": "uint32",
                                                             "nodeType": "ElementaryTypeName",
                                                             "src": "1472:6:24",
@@ -875,23 +875,23 @@
                                                         "visibility": "internal"
                                                     }
                                                 ],
-                                                "id": 7689,
+                                                "id": 7695,
                                                 "initialValue": {
                                                     "commonType": {
                                                         "typeIdentifier": "t_uint32",
                                                         "typeString": "uint32"
                                                     },
-                                                    "id": 7688,
+                                                    "id": 7694,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
                                                     "lValueRequested": false,
                                                     "leftExpression": {
-                                                        "id": 7686,
+                                                        "id": 7692,
                                                         "name": "blockTimestamp",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 7646,
+                                                        "referencedDeclaration": 7652,
                                                         "src": "1493:14:24",
                                                         "typeDescriptions": {
                                                             "typeIdentifier": "t_uint32",
@@ -901,11 +901,11 @@
                                                     "nodeType": "BinaryOperation",
                                                     "operator": "-",
                                                     "rightExpression": {
-                                                        "id": 7687,
+                                                        "id": 7693,
                                                         "name": "blockTimestampLast",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 7674,
+                                                        "referencedDeclaration": 7680,
                                                         "src": "1510:18:24",
                                                         "typeDescriptions": {
                                                             "typeIdentifier": "t_uint32",
@@ -923,17 +923,17 @@
                                             },
                                             {
                                                 "expression": {
-                                                    "id": 7702,
+                                                    "id": 7708,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
                                                     "lValueRequested": false,
                                                     "leftHandSide": {
-                                                        "id": 7690,
+                                                        "id": 7696,
                                                         "name": "price0Cumulative",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 7642,
+                                                        "referencedDeclaration": 7648,
                                                         "src": "1619:16:24",
                                                         "typeDescriptions": {
                                                             "typeIdentifier": "t_uint256",
@@ -947,7 +947,7 @@
                                                             "typeIdentifier": "t_uint256",
                                                             "typeString": "uint256"
                                                         },
-                                                        "id": 7701,
+                                                        "id": 7707,
                                                         "isConstant": false,
                                                         "isLValue": false,
                                                         "isPure": false,
@@ -958,11 +958,11 @@
                                                                     "expression": {
                                                                         "arguments": [
                                                                             {
-                                                                                "id": 7695,
+                                                                                "id": 7701,
                                                                                 "name": "reserve1",
                                                                                 "nodeType": "Identifier",
                                                                                 "overloadedDeclarations": [],
-                                                                                "referencedDeclaration": 7672,
+                                                                                "referencedDeclaration": 7678,
                                                                                 "src": "1684:8:24",
                                                                                 "typeDescriptions": {
                                                                                     "typeIdentifier": "t_uint112",
@@ -970,11 +970,11 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "id": 7696,
+                                                                                "id": 7702,
                                                                                 "name": "reserve0",
                                                                                 "nodeType": "Identifier",
                                                                                 "overloadedDeclarations": [],
-                                                                                "referencedDeclaration": 7670,
+                                                                                "referencedDeclaration": 7676,
                                                                                 "src": "1694:8:24",
                                                                                 "typeDescriptions": {
                                                                                     "typeIdentifier": "t_uint112",
@@ -994,18 +994,18 @@
                                                                                 }
                                                                             ],
                                                                             "expression": {
-                                                                                "id": 7693,
+                                                                                "id": 7699,
                                                                                 "name": "FixedPoint",
                                                                                 "nodeType": "Identifier",
                                                                                 "overloadedDeclarations": [],
-                                                                                "referencedDeclaration": 6427,
+                                                                                "referencedDeclaration": 6433,
                                                                                 "src": "1664:10:24",
                                                                                 "typeDescriptions": {
-                                                                                    "typeIdentifier": "t_type$_t_contract$_FixedPoint_$6427_$",
+                                                                                    "typeIdentifier": "t_type$_t_contract$_FixedPoint_$6433_$",
                                                                                     "typeString": "type(library FixedPoint)"
                                                                                 }
                                                                             },
-                                                                            "id": 7694,
+                                                                            "id": 7700,
                                                                             "isConstant": false,
                                                                             "isLValue": false,
                                                                             "isPure": false,
@@ -1013,14 +1013,14 @@
                                                                             "memberLocation": "1675:8:24",
                                                                             "memberName": "fraction",
                                                                             "nodeType": "MemberAccess",
-                                                                            "referencedDeclaration": 6314,
+                                                                            "referencedDeclaration": 6320,
                                                                             "src": "1664:19:24",
                                                                             "typeDescriptions": {
-                                                                                "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_struct$_uq112x112_$5788_memory_ptr_$",
+                                                                                "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_struct$_uq112x112_$5794_memory_ptr_$",
                                                                                 "typeString": "function (uint256,uint256) pure returns (struct FixedPoint.uq112x112 memory)"
                                                                             }
                                                                         },
-                                                                        "id": 7697,
+                                                                        "id": 7703,
                                                                         "isConstant": false,
                                                                         "isLValue": false,
                                                                         "isPure": false,
@@ -1032,11 +1032,11 @@
                                                                         "src": "1664:39:24",
                                                                         "tryCall": false,
                                                                         "typeDescriptions": {
-                                                                            "typeIdentifier": "t_struct$_uq112x112_$5788_memory_ptr",
+                                                                            "typeIdentifier": "t_struct$_uq112x112_$5794_memory_ptr",
                                                                             "typeString": "struct FixedPoint.uq112x112 memory"
                                                                         }
                                                                     },
-                                                                    "id": 7698,
+                                                                    "id": 7704,
                                                                     "isConstant": false,
                                                                     "isLValue": true,
                                                                     "isPure": false,
@@ -1044,7 +1044,7 @@
                                                                     "memberLocation": "1704:2:24",
                                                                     "memberName": "_x",
                                                                     "nodeType": "MemberAccess",
-                                                                    "referencedDeclaration": 5787,
+                                                                    "referencedDeclaration": 5793,
                                                                     "src": "1664:42:24",
                                                                     "typeDescriptions": {
                                                                         "typeIdentifier": "t_uint224",
@@ -1059,7 +1059,7 @@
                                                                         "typeString": "uint224"
                                                                     }
                                                                 ],
-                                                                "id": 7692,
+                                                                "id": 7698,
                                                                 "isConstant": false,
                                                                 "isLValue": false,
                                                                 "isPure": true,
@@ -1071,14 +1071,14 @@
                                                                     "typeString": "type(uint256)"
                                                                 },
                                                                 "typeName": {
-                                                                    "id": 7691,
+                                                                    "id": 7697,
                                                                     "name": "uint256",
                                                                     "nodeType": "ElementaryTypeName",
                                                                     "src": "1656:7:24",
                                                                     "typeDescriptions": {}
                                                                 }
                                                             },
-                                                            "id": 7699,
+                                                            "id": 7705,
                                                             "isConstant": false,
                                                             "isLValue": false,
                                                             "isPure": false,
@@ -1097,11 +1097,11 @@
                                                         "nodeType": "BinaryOperation",
                                                         "operator": "*",
                                                         "rightExpression": {
-                                                            "id": 7700,
+                                                            "id": 7706,
                                                             "name": "timeElapsed",
                                                             "nodeType": "Identifier",
                                                             "overloadedDeclarations": [],
-                                                            "referencedDeclaration": 7685,
+                                                            "referencedDeclaration": 7691,
                                                             "src": "1727:11:24",
                                                             "typeDescriptions": {
                                                                 "typeIdentifier": "t_uint32",
@@ -1120,23 +1120,23 @@
                                                         "typeString": "uint256"
                                                     }
                                                 },
-                                                "id": 7703,
+                                                "id": 7709,
                                                 "nodeType": "ExpressionStatement",
                                                 "src": "1619:119:24"
                                             },
                                             {
                                                 "expression": {
-                                                    "id": 7716,
+                                                    "id": 7722,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
                                                     "lValueRequested": false,
                                                     "leftHandSide": {
-                                                        "id": 7704,
+                                                        "id": 7710,
                                                         "name": "price1Cumulative",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 7644,
+                                                        "referencedDeclaration": 7650,
                                                         "src": "1784:16:24",
                                                         "typeDescriptions": {
                                                             "typeIdentifier": "t_uint256",
@@ -1150,7 +1150,7 @@
                                                             "typeIdentifier": "t_uint256",
                                                             "typeString": "uint256"
                                                         },
-                                                        "id": 7715,
+                                                        "id": 7721,
                                                         "isConstant": false,
                                                         "isLValue": false,
                                                         "isPure": false,
@@ -1161,11 +1161,11 @@
                                                                     "expression": {
                                                                         "arguments": [
                                                                             {
-                                                                                "id": 7709,
+                                                                                "id": 7715,
                                                                                 "name": "reserve0",
                                                                                 "nodeType": "Identifier",
                                                                                 "overloadedDeclarations": [],
-                                                                                "referencedDeclaration": 7670,
+                                                                                "referencedDeclaration": 7676,
                                                                                 "src": "1849:8:24",
                                                                                 "typeDescriptions": {
                                                                                     "typeIdentifier": "t_uint112",
@@ -1173,11 +1173,11 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "id": 7710,
+                                                                                "id": 7716,
                                                                                 "name": "reserve1",
                                                                                 "nodeType": "Identifier",
                                                                                 "overloadedDeclarations": [],
-                                                                                "referencedDeclaration": 7672,
+                                                                                "referencedDeclaration": 7678,
                                                                                 "src": "1859:8:24",
                                                                                 "typeDescriptions": {
                                                                                     "typeIdentifier": "t_uint112",
@@ -1197,18 +1197,18 @@
                                                                                 }
                                                                             ],
                                                                             "expression": {
-                                                                                "id": 7707,
+                                                                                "id": 7713,
                                                                                 "name": "FixedPoint",
                                                                                 "nodeType": "Identifier",
                                                                                 "overloadedDeclarations": [],
-                                                                                "referencedDeclaration": 6427,
+                                                                                "referencedDeclaration": 6433,
                                                                                 "src": "1829:10:24",
                                                                                 "typeDescriptions": {
-                                                                                    "typeIdentifier": "t_type$_t_contract$_FixedPoint_$6427_$",
+                                                                                    "typeIdentifier": "t_type$_t_contract$_FixedPoint_$6433_$",
                                                                                     "typeString": "type(library FixedPoint)"
                                                                                 }
                                                                             },
-                                                                            "id": 7708,
+                                                                            "id": 7714,
                                                                             "isConstant": false,
                                                                             "isLValue": false,
                                                                             "isPure": false,
@@ -1216,14 +1216,14 @@
                                                                             "memberLocation": "1840:8:24",
                                                                             "memberName": "fraction",
                                                                             "nodeType": "MemberAccess",
-                                                                            "referencedDeclaration": 6314,
+                                                                            "referencedDeclaration": 6320,
                                                                             "src": "1829:19:24",
                                                                             "typeDescriptions": {
-                                                                                "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_struct$_uq112x112_$5788_memory_ptr_$",
+                                                                                "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_struct$_uq112x112_$5794_memory_ptr_$",
                                                                                 "typeString": "function (uint256,uint256) pure returns (struct FixedPoint.uq112x112 memory)"
                                                                             }
                                                                         },
-                                                                        "id": 7711,
+                                                                        "id": 7717,
                                                                         "isConstant": false,
                                                                         "isLValue": false,
                                                                         "isPure": false,
@@ -1235,11 +1235,11 @@
                                                                         "src": "1829:39:24",
                                                                         "tryCall": false,
                                                                         "typeDescriptions": {
-                                                                            "typeIdentifier": "t_struct$_uq112x112_$5788_memory_ptr",
+                                                                            "typeIdentifier": "t_struct$_uq112x112_$5794_memory_ptr",
                                                                             "typeString": "struct FixedPoint.uq112x112 memory"
                                                                         }
                                                                     },
-                                                                    "id": 7712,
+                                                                    "id": 7718,
                                                                     "isConstant": false,
                                                                     "isLValue": true,
                                                                     "isPure": false,
@@ -1247,7 +1247,7 @@
                                                                     "memberLocation": "1869:2:24",
                                                                     "memberName": "_x",
                                                                     "nodeType": "MemberAccess",
-                                                                    "referencedDeclaration": 5787,
+                                                                    "referencedDeclaration": 5793,
                                                                     "src": "1829:42:24",
                                                                     "typeDescriptions": {
                                                                         "typeIdentifier": "t_uint224",
@@ -1262,7 +1262,7 @@
                                                                         "typeString": "uint224"
                                                                     }
                                                                 ],
-                                                                "id": 7706,
+                                                                "id": 7712,
                                                                 "isConstant": false,
                                                                 "isLValue": false,
                                                                 "isPure": true,
@@ -1274,14 +1274,14 @@
                                                                     "typeString": "type(uint256)"
                                                                 },
                                                                 "typeName": {
-                                                                    "id": 7705,
+                                                                    "id": 7711,
                                                                     "name": "uint256",
                                                                     "nodeType": "ElementaryTypeName",
                                                                     "src": "1821:7:24",
                                                                     "typeDescriptions": {}
                                                                 }
                                                             },
-                                                            "id": 7713,
+                                                            "id": 7719,
                                                             "isConstant": false,
                                                             "isLValue": false,
                                                             "isPure": false,
@@ -1300,11 +1300,11 @@
                                                         "nodeType": "BinaryOperation",
                                                         "operator": "*",
                                                         "rightExpression": {
-                                                            "id": 7714,
+                                                            "id": 7720,
                                                             "name": "timeElapsed",
                                                             "nodeType": "Identifier",
                                                             "overloadedDeclarations": [],
-                                                            "referencedDeclaration": 7685,
+                                                            "referencedDeclaration": 7691,
                                                             "src": "1892:11:24",
                                                             "typeDescriptions": {
                                                                 "typeIdentifier": "t_uint32",
@@ -1323,7 +1323,7 @@
                                                         "typeString": "uint256"
                                                     }
                                                 },
-                                                "id": 7717,
+                                                "id": 7723,
                                                 "nodeType": "ExpressionStatement",
                                                 "src": "1784:119:24"
                                             }
@@ -1332,7 +1332,7 @@
                                 }
                             ]
                         },
-                        "id": 7721,
+                        "id": 7727,
                         "implemented": true,
                         "kind": "function",
                         "modifiers": [],
@@ -1340,17 +1340,17 @@
                         "nameLocation": "671:23:24",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 7640,
+                            "id": 7646,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 7639,
+                                    "id": 7645,
                                     "mutability": "mutable",
                                     "name": "pool",
                                     "nameLocation": "703:4:24",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 7721,
+                                    "scope": 7727,
                                     "src": "695:12:24",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -1359,7 +1359,7 @@
                                         "typeString": "address"
                                     },
                                     "typeName": {
-                                        "id": 7638,
+                                        "id": 7644,
                                         "name": "address",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "695:7:24",
@@ -1375,17 +1375,17 @@
                             "src": "694:14:24"
                         },
                         "returnParameters": {
-                            "id": 7647,
+                            "id": 7653,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 7642,
+                                    "id": 7648,
                                     "mutability": "mutable",
                                     "name": "price0Cumulative",
                                     "nameLocation": "781:16:24",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 7721,
+                                    "scope": 7727,
                                     "src": "773:24:24",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -1394,7 +1394,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 7641,
+                                        "id": 7647,
                                         "name": "uint256",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "773:7:24",
@@ -1407,12 +1407,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 7644,
+                                    "id": 7650,
                                     "mutability": "mutable",
                                     "name": "price1Cumulative",
                                     "nameLocation": "820:16:24",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 7721,
+                                    "scope": 7727,
                                     "src": "812:24:24",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -1421,7 +1421,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 7643,
+                                        "id": 7649,
                                         "name": "uint256",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "812:7:24",
@@ -1434,12 +1434,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 7646,
+                                    "id": 7652,
                                     "mutability": "mutable",
                                     "name": "blockTimestamp",
                                     "nameLocation": "858:14:24",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 7721,
+                                    "scope": 7727,
                                     "src": "851:21:24",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -1448,7 +1448,7 @@
                                         "typeString": "uint32"
                                     },
                                     "typeName": {
-                                        "id": 7645,
+                                        "id": 7651,
                                         "name": "uint32",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "851:6:24",
@@ -1462,14 +1462,14 @@
                             ],
                             "src": "758:125:24"
                         },
-                        "scope": 7722,
+                        "scope": 7728,
                         "src": "662:1260:24",
                         "stateMutability": "view",
                         "virtual": false,
                         "visibility": "internal"
                     }
                 ],
-                "scope": 7723,
+                "scope": 7729,
                 "src": "251:1674:24",
                 "usedErrors": []
             }

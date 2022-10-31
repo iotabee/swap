@@ -14,7 +14,7 @@ import "./IotaBeeSwapERC20.sol";
 
 contract IotaBeeSwapPool is IIotaBeeSwapPool, IotaBeeSwapERC20 {
     using UQ112x112 for uint224;
-    uint24 public constant override FEE_DIV_CONST = 100000;
+    uint40 public constant override FEE_DIV_CONST = 100000;
     uint256 public constant override MINIMUM_LIQUIDITY = 1000;
     bytes4 private constant SELECTOR =
         bytes4(keccak256(bytes("transfer(address,uint256)")));
@@ -163,7 +163,7 @@ contract IotaBeeSwapPool is IIotaBeeSwapPool, IotaBeeSwapERC20 {
         _mint(to, liquidity);
 
         _update(balance0, balance1, _reserve0, _reserve1);
-        if (feeOn) kLast = reserve0 * reserve1; // reserve0 and reserve1 are up-to-date
+        if (feeOn) kLast = uint256(reserve0) * uint256(reserve1); // reserve0 and reserve1 are up-to-date
         emit Mint(msg.sender, amount0, amount1);
     }
 

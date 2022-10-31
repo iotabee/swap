@@ -21,7 +21,7 @@ interface IIotaBeeSwapPool is IIotaBeeSwapERC20 {
     );
     event Sync(uint112 reserve0, uint112 reserve1);
 
-    function FEE_DIV_CONST() external pure returns (uint24);
+    function FEE_DIV_CONST() external pure returns (uint40);
 
     function MINIMUM_LIQUIDITY() external pure returns (uint256);
 

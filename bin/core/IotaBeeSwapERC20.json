@@ -331,10 +331,10 @@
         "absolutePath": "d:/contract/iotabee/core/IotaBeeSwapERC20.sol",
         "exportedSymbols": {
             "IERC20": [
-                1775
+                1781
             ],
             "IIotaBeeSwapERC20": [
-                1829
+                1835
             ],
             "IotaBeeSwapERC20": [
                 625
@@ -362,7 +362,7 @@
                 "nameLocation": "-1:-1:-1",
                 "nodeType": "ImportDirective",
                 "scope": 626,
-                "sourceUnit": 1830,
+                "sourceUnit": 1836,
                 "src": "67:44:1",
                 "symbolAliases": [],
                 "unitAlias": ""
@@ -378,7 +378,7 @@
                                 "144:17:1"
                             ],
                             "nodeType": "IdentifierPath",
-                            "referencedDeclaration": 1829,
+                            "referencedDeclaration": 1835,
                             "src": "144:17:1"
                         },
                         "id": 280,
@@ -393,8 +393,8 @@
                 "id": 625,
                 "linearizedBaseContracts": [
                     625,
-                    1829,
-                    1775
+                    1835,
+                    1781
                 ],
                 "name": "IotaBeeSwapERC20",
                 "nameLocation": "124:16:1",
@@ -402,7 +402,7 @@
                 "nodes": [
                     {
                         "baseFunctions": [
-                            1714
+                            1720
                         ],
                         "constant": true,
                         "functionSelector": "06fdde03",
@@ -455,7 +455,7 @@
                     },
                     {
                         "baseFunctions": [
-                            1719
+                            1725
                         ],
                         "constant": true,
                         "functionSelector": "95d89b41",
@@ -508,7 +508,7 @@
                     },
                     {
                         "baseFunctions": [
-                            1724
+                            1730
                         ],
                         "constant": true,
                         "functionSelector": "313ce567",
@@ -561,7 +561,7 @@
                     },
                     {
                         "baseFunctions": [
-                            1729
+                            1735
                         ],
                         "constant": false,
                         "functionSelector": "18160ddd",
@@ -598,7 +598,7 @@
                     },
                     {
                         "baseFunctions": [
-                            1736
+                            1742
                         ],
                         "constant": false,
                         "functionSelector": "70a08231",
@@ -654,7 +654,7 @@
                     },
                     {
                         "baseFunctions": [
-                            1745
+                            1751
                         ],
                         "constant": false,
                         "functionSelector": "dd62ed3e",
@@ -729,7 +729,7 @@
                     },
                     {
                         "baseFunctions": [
-                            1799
+                            1805
                         ],
                         "constant": false,
                         "functionSelector": "3644e515",
@@ -766,7 +766,7 @@
                     },
                     {
                         "baseFunctions": [
-                            1804
+                            1810
                         ],
                         "constant": true,
                         "functionSelector": "30adf81f",
@@ -856,7 +856,7 @@
                     },
                     {
                         "baseFunctions": [
-                            1811
+                            1817
                         ],
                         "constant": false,
                         "functionSelector": "7ecebe00",
@@ -1633,7 +1633,7 @@
                                             "name": "Transfer",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1709,
+                                            "referencedDeclaration": 1715,
                                             "src": "1445:8:1",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -1968,7 +1968,7 @@
                                             "name": "Transfer",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1709,
+                                            "referencedDeclaration": 1715,
                                             "src": "1627:8:1",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -2236,7 +2236,7 @@
                                             "name": "Approval",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1701,
+                                            "referencedDeclaration": 1707,
                                             "src": "1843:8:1",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -2575,7 +2575,7 @@
                                             "name": "Transfer",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1709,
+                                            "referencedDeclaration": 1715,
                                             "src": "2076:8:1",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -2715,7 +2715,7 @@
                     },
                     {
                         "baseFunctions": [
-                            1754
+                            1760
                         ],
                         "body": {
                             "id": 479,
@@ -2965,7 +2965,7 @@
                     },
                     {
                         "baseFunctions": [
-                            1763
+                            1769
                         ],
                         "body": {
                             "id": 499,
@@ -3215,7 +3215,7 @@
                     },
                     {
                         "baseFunctions": [
-                            1774
+                            1780
                         ],
                         "body": {
                             "id": 543,
@@ -3765,7 +3765,7 @@
                     },
                     {
                         "baseFunctions": [
-                            1828
+                            1834
                         ],
                         "body": {
                             "id": 623,
