@@ -8,7 +8,7 @@ import "./libraries/TransferHelper.sol";
 import "./libraries/IotaBeeSwapLibrary.sol";
 
 import "./interfaces/IIotaBeeSwapRouter.sol";
-import "./interfaces/IWETH.sol";
+import "./interfaces/IWSMR.sol";
 
 contract IotaBeeSwapRouter is IIotaBeeSwapRouter {
     address public immutable factory;
@@ -132,9 +132,9 @@ contract IotaBeeSwapRouter is IIotaBeeSwapRouter {
             amounts[amounts.length - 1] >= amountOutMin,
             "IBSRouter: INSUFFICIENT_OUTPUT_AMOUNT"
         );
-        IWETH(WETH).deposit{value: amounts[0]}();
+        IWSMR(WETH).deposit{value: amounts[0]}();
         assert(
-            IWETH(WETH).transfer(
+            IWSMR(WETH).transfer(
                 IotaBeeSwapLibrary.poolFor(
                     factory,
                     path[0],
@@ -170,7 +170,7 @@ contract IotaBeeSwapRouter is IIotaBeeSwapRouter {
             amounts[0]
         );
         _swap(amounts, path, feeRates, address(this));
-        IWETH(WETH).withdraw(amounts[amounts.length - 1]);
+        IWSMR(WETH).withdraw(amounts[amounts.length - 1]);
         TransferHelper.safeTransferETH(to, amounts[amounts.length - 1]);
     }
 
@@ -200,7 +200,7 @@ contract IotaBeeSwapRouter is IIotaBeeSwapRouter {
             amounts[0]
         );
         _swap(amounts, path, feeRates, address(this));
-        IWETH(WETH).withdraw(amounts[amounts.length - 1]);
+        IWSMR(WETH).withdraw(amounts[amounts.length - 1]);
         TransferHelper.safeTransferETH(to, amounts[amounts.length - 1]);
     }
 
@@ -225,9 +225,9 @@ contract IotaBeeSwapRouter is IIotaBeeSwapRouter {
             feeRates
         );
         require(amounts[0] <= msg.value, "IBSRouter: EXCESSIVE_INPUT_AMOUNT");
-        IWETH(WETH).deposit{value: amounts[0]}();
+        IWSMR(WETH).deposit{value: amounts[0]}();
         assert(
-            IWETH(WETH).transfer(
+            IWSMR(WETH).transfer(
                 IotaBeeSwapLibrary.poolFor(
                     factory,
                     path[0],
@@ -324,9 +324,9 @@ contract IotaBeeSwapRouter is IIotaBeeSwapRouter {
     ) external payable virtual override ensure(deadline) {
         require(path[0] == WETH, "IBSRouter: INVALID_PATH");
         uint256 amountIn = msg.value;
-        IWETH(WETH).deposit{value: amountIn}();
+        IWSMR(WETH).deposit{value: amountIn}();
         assert(
-            IWETH(WETH).transfer(
+            IWSMR(WETH).transfer(
                 IotaBeeSwapLibrary.poolFor(
                     factory,
                     path[0],
@@ -366,7 +366,7 @@ contract IotaBeeSwapRouter is IIotaBeeSwapRouter {
             amountOut >= amountOutMin,
             "IBSRouter: INSUFFICIENT_OUTPUT_AMOUNT"
         );
-        IWETH(WETH).withdraw(amountOut);
+        IWSMR(WETH).withdraw(amountOut);
         TransferHelper.safeTransferETH(to, amountOut);
     }
 

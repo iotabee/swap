@@ -8,7 +8,7 @@ import "./libraries/TransferHelper.sol";
 import "./libraries/IotaBeeSwapLibrary.sol";
 
 import "./interfaces/IIotaBeeSwapLpRouter.sol";
-import "./interfaces/IWETH.sol";
+import "./interfaces/IWSMR.sol";
 
 contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
     address public immutable factory;
@@ -155,8 +155,8 @@ contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
             feeRate
         );
         TransferHelper.safeTransferFrom(token, msg.sender, pool, amountToken);
-        IWETH(WETH).deposit{value: amountETH}();
-        assert(IWETH(WETH).transfer(pool, amountETH));
+        IWSMR(WETH).deposit{value: amountETH}();
+        assert(IWSMR(WETH).transfer(pool, amountETH));
         liquidity = IIotaBeeSwapPool(pool).mint(to);
         if (msg.value > amountETH)
             TransferHelper.safeTransferETH(msg.sender, msg.value - amountETH); // refund dust eth, if any
@@ -219,7 +219,7 @@ contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
             deadline
         );
         TransferHelper.safeTransfer(token, to, amountToken);
-        IWETH(WETH).withdraw(amountETH);
+        IWSMR(WETH).withdraw(amountETH);
         TransferHelper.safeTransferETH(to, amountETH);
     }
 
@@ -323,7 +323,7 @@ contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
             to,
             IERC20(token).balanceOf(address(this))
         );
-        IWETH(WETH).withdraw(amountETH);
+        IWSMR(WETH).withdraw(amountETH);
         TransferHelper.safeTransferETH(to, amountETH);
     }
 
