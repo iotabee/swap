@@ -4,7 +4,7 @@ pragma solidity =0.8.17;
 interface IIotaBeeSwapLpRouter {
     function factory() external view returns (address);
 
-    function WETH() external view returns (address);
+    function WSMR() external view returns (address);
 
     function addLiquidity(
         address tokenA,
