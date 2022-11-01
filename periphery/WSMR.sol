@@ -3,9 +3,9 @@ pragma solidity =0.8.17;
 import "./interfaces/IWSMR.sol";
 
 contract WSMR is IWSMR {
-    string public name = "Wrapped Smr";
-    string public symbol = "WSMR";
-    uint8 public decimals = 6;
+    string public constant name = "Wrapped Smr";
+    string public constant symbol = "WSMR";
+    uint8 public constant decimals = 18;
 
     event Approval(address indexed src, address indexed guy, uint256 wad);
     event Transfer(address indexed src, address indexed dst, uint256 wad);
