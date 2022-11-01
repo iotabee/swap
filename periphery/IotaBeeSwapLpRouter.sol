@@ -8,24 +8,24 @@ import "./libraries/TransferHelper.sol";
 import "./libraries/IotaBeeSwapLibrary.sol";
 
 import "./interfaces/IIotaBeeSwapLpRouter.sol";
-import "./interfaces/IWSMR.sol";
+import "./interfaces/IWETH.sol";
 
 contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
     address public immutable factory;
-    address public immutable WSMR;
+    address public immutable WETH;
 
     modifier ensure(uint256 deadline) {
         require(deadline >= block.timestamp, "IBSRouter: EXPIRED");
         _;
     }
 
-    constructor(address _factory, address _WSMR) {
+    constructor(address _factory, address _WETH) {
         factory = _factory;
-        WSMR = _WSMR;
+        WETH = _WETH;
     }
 
     receive() external payable {
-        assert(msg.sender == WSMR); // only accept ETH via fallback from the WSMR contract
+        assert(msg.sender == WETH); // only accept ETH via fallback from the WETH contract
     }
 
     function _addLiquidity(
@@ -141,7 +141,7 @@ contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
     {
         (amountToken, amountETH) = _addLiquidity(
             token,
-            WSMR,
+            WETH,
             feeRate,
             amountTokenDesired,
             msg.value,
@@ -151,12 +151,12 @@ contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
         address pool = IotaBeeSwapLibrary.poolFor(
             factory,
             token,
-            WSMR,
+            WETH,
             feeRate
         );
         TransferHelper.safeTransferFrom(token, msg.sender, pool, amountToken);
-        IWSMR(WSMR).deposit{value: amountETH}();
-        assert(IWSMR(WSMR).transfer(pool, amountETH));
+        IWETH(WETH).deposit{value: amountETH}();
+        assert(IWETH(WETH).transfer(pool, amountETH));
         liquidity = IIotaBeeSwapPool(pool).mint(to);
         if (msg.value > amountETH)
             TransferHelper.safeTransferETH(msg.sender, msg.value - amountETH); // refund dust eth, if any
@@ -194,6 +194,12 @@ contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
         require(amountB >= amountBMin, "IBSRouter: INSUFFICIENT_B_AMOUNT");
     }
 
+    function WithdrawETH(address to, uint256 amount) private {
+        amount = (amount / 10**12) * (10**12);
+        IWETH(WETH).withdraw(amount);
+        TransferHelper.safeTransferETH(to, amount);
+    }
+
     function removeLiquidityETH(
         address token,
         uint24 feeRate,
@@ -210,7 +216,7 @@ contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
     {
         (amountToken, amountETH) = removeLiquidity(
             token,
-            WSMR,
+            WETH,
             feeRate,
             liquidity,
             amountTokenMin,
@@ -219,8 +225,7 @@ contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
             deadline
         );
         TransferHelper.safeTransfer(token, to, amountToken);
-        IWSMR(WSMR).withdraw(amountETH);
-        TransferHelper.safeTransferETH(to, amountETH);
+        WithdrawETH(to, amountETH);
     }
 
     function removeLiquidityWithPermit(
@@ -275,7 +280,7 @@ contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
         address pool = IotaBeeSwapLibrary.poolFor(
             factory,
             token,
-            WSMR,
+            WETH,
             feeRate
         );
         uint256 value = pd.approveMax ? type(uint256).max : liquidity;
@@ -310,7 +315,7 @@ contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
     ) public virtual override ensure(deadline) returns (uint256 amountETH) {
         (, amountETH) = removeLiquidity(
             token,
-            WSMR,
+            WETH,
             feeRate,
             liquidity,
             amountTokenMin,
@@ -323,8 +328,7 @@ contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
             to,
             IERC20(token).balanceOf(address(this))
         );
-        IWSMR(WSMR).withdraw(amountETH);
-        TransferHelper.safeTransferETH(to, amountETH);
+        WithdrawETH(to, amountETH);
     }
 
     function removeLiquidityETHWithPermitSupportingFeeOnTransferTokens(
@@ -340,7 +344,7 @@ contract IotaBeeSwapLpRouter is IIotaBeeSwapLpRouter {
         address pool = IotaBeeSwapLibrary.poolFor(
             factory,
             token,
-            WSMR,
+            WETH,
             feeRate
         );
         uint256 value = pd.approveMax ? type(uint256).max : liquidity;

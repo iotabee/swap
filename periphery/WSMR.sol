@@ -1,8 +1,8 @@
 //SPDX-License-Identifier: UNLICENSED
 pragma solidity =0.8.17;
-import "./interfaces/IWSMR.sol";
+import "./interfaces/IWETH.sol";
 
-contract WSMR is IWSMR {
+contract WSMR is IWETH {
     string public constant name = "Wrapped Smr";
     string public constant symbol = "WSMR";
     uint8 public constant decimals = 18;
