@@ -18,9 +18,9 @@ contract IotaBeeSwapFactory is IIotaBeeSwapFactory, IotaBeeSwapPoolDeployer {
 
     constructor() {
         owner = msg.sender;
-        feeRateAmount[500] = 1;
-        feeRateAmount[3000] = 1;
-        feeRateAmount[10000] = 1;
+        feeRateAmount[50] = 1;
+        feeRateAmount[300] = 1;
+        feeRateAmount[1000] = 1;
     }
 
     function allPoolsLength() external view override returns (uint256) {
