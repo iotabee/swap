@@ -31,7 +31,7 @@ interface IIotaBeeSwapFactory {
         uint24 feeRate
     ) external returns (address pool);
 
-    function enableFeeAmount(uint24 feeRate) external;
+    function enableFeeAmount(uint24 feeRate, bool bOn) external;
 
     function setFeeTo(address) external;
 

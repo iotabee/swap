@@ -49,10 +49,14 @@ contract IotaBeeSwapFactory is IIotaBeeSwapFactory, IotaBeeSwapPoolDeployer {
         emit PoolCreated(token0, token1, feeRate, pool);
     }
 
-    function enableFeeAmount(uint24 feeRate) external override {
+    function enableFeeAmount(uint24 feeRate, bool bOn) external override {
         require(msg.sender == owner);
         require(feeRate < 100000);
-        feeRateAmount[feeRate] = 1;
+        int24 v = 0;
+        if (bOn) {
+            v = 1;
+        }
+        feeRateAmount[feeRate] = v;
     }
 
     function setFeeTo(address _feeTo) external override {
