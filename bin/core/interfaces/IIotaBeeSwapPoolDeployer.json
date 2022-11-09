@@ -44,15 +44,15 @@
         "absolutePath": "d:/contract/iotabee/core/interfaces/IIotaBeeSwapPoolDeployer.sol",
         "exportedSymbols": {
             "IIotaBeeSwapPoolDeployer": [
-                2064
+                2079
             ]
         },
-        "id": 2065,
+        "id": 2080,
         "license": "UNLICENSED",
         "nodeType": "SourceUnit",
         "nodes": [
             {
-                "id": 2052,
+                "id": 2067,
                 "literals": [
                     "solidity",
                     ">=",
@@ -69,9 +69,9 @@
                 "contractDependencies": [],
                 "contractKind": "interface",
                 "fullyImplemented": false,
-                "id": 2064,
+                "id": 2079,
                 "linearizedBaseContracts": [
-                    2064
+                    2079
                 ],
                 "name": "IIotaBeeSwapPoolDeployer",
                 "nameLocation": "77:24:9",
@@ -79,7 +79,7 @@
                 "nodes": [
                     {
                         "functionSelector": "89035730",
-                        "id": 2063,
+                        "id": 2078,
                         "implemented": false,
                         "kind": "function",
                         "modifiers": [],
@@ -87,23 +87,23 @@
                         "nameLocation": "118:10:9",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 2053,
+                            "id": 2068,
                             "nodeType": "ParameterList",
                             "parameters": [],
                             "src": "128:2:9"
                         },
                         "returnParameters": {
-                            "id": 2062,
+                            "id": 2077,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 2055,
+                                    "id": 2070,
                                     "mutability": "mutable",
                                     "name": "factory",
                                     "nameLocation": "203:7:9",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 2063,
+                                    "scope": 2078,
                                     "src": "195:15:9",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -112,7 +112,7 @@
                                         "typeString": "address"
                                     },
                                     "typeName": {
-                                        "id": 2054,
+                                        "id": 2069,
                                         "name": "address",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "195:7:9",
@@ -126,12 +126,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 2057,
+                                    "id": 2072,
                                     "mutability": "mutable",
                                     "name": "token0",
                                     "nameLocation": "233:6:9",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 2063,
+                                    "scope": 2078,
                                     "src": "225:14:9",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -140,7 +140,7 @@
                                         "typeString": "address"
                                     },
                                     "typeName": {
-                                        "id": 2056,
+                                        "id": 2071,
                                         "name": "address",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "225:7:9",
@@ -154,12 +154,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 2059,
+                                    "id": 2074,
                                     "mutability": "mutable",
                                     "name": "token1",
                                     "nameLocation": "262:6:9",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 2063,
+                                    "scope": 2078,
                                     "src": "254:14:9",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -168,7 +168,7 @@
                                         "typeString": "address"
                                     },
                                     "typeName": {
-                                        "id": 2058,
+                                        "id": 2073,
                                         "name": "address",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "254:7:9",
@@ -182,12 +182,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 2061,
+                                    "id": 2076,
                                     "mutability": "mutable",
                                     "name": "fee",
                                     "nameLocation": "290:3:9",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 2063,
+                                    "scope": 2078,
                                     "src": "283:10:9",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -196,7 +196,7 @@
                                         "typeString": "uint24"
                                     },
                                     "typeName": {
-                                        "id": 2060,
+                                        "id": 2075,
                                         "name": "uint24",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "283:6:9",
@@ -210,14 +210,14 @@
                             ],
                             "src": "180:124:9"
                         },
-                        "scope": 2064,
+                        "scope": 2079,
                         "src": "109:196:9",
                         "stateMutability": "view",
                         "virtual": false,
                         "visibility": "external"
                     }
                 ],
-                "scope": 2065,
+                "scope": 2080,
                 "src": "67:241:9",
                 "usedErrors": []
             }

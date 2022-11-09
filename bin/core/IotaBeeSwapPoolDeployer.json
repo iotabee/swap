@@ -30,11 +30,11 @@
             "type": "function"
         }
     ],
-    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"parameters\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"factory\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"token0\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"token1\",\"type\":\"address\"},{\"internalType\":\"uint24\",\"name\":\"feeRate\",\"type\":\"uint24\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/contract/iotabee/core/IotaBeeSwapPoolDeployer.sol\":\"IotaBeeSwapPoolDeployer\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/contract/iotabee/core/IotaBeeSwapERC20.sol\":{\"keccak256\":\"0xeef0c997a8c05e619b0b39f099021c36381bbca6a117d6edc593206ec430bfb8\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://01d3b734e208507687655c993018b09c8e74ae3a46b41c36680bc0f3726259f9\",\"dweb:/ipfs/QmNYPsCPJUDKrw9CpitBqBSoX9Kuao3mbxYLXdfEV5DRQn\"]},\"d:/contract/iotabee/core/IotaBeeSwapPool.sol\":{\"keccak256\":\"0x1a14eb3c78358bd2ecc3927633e2aaa5c37585cc007f8afe467be2c157269823\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://d0d245c713e9aa9f0706bf81796262402d5309455dbdc0a366dd7a193c982189\",\"dweb:/ipfs/QmeUxneN1SLFzqbTXqNzTvhBzx8wpnG9jQUqUTXtGoGM9y\"]},\"d:/contract/iotabee/core/IotaBeeSwapPoolDeployer.sol\":{\"keccak256\":\"0xcd925b7ec9c316b904a2693fcc001c844d7c3d8c0b9972a62519ec987e2d625c\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://c2ca4b2704a653e3e3a64ba823b1997793a886f9582f5831d66590c049b01d5e\",\"dweb:/ipfs/QmTWYbaKdbiMHscpuU5ug7xF2N6axE66x6myhiBjoxZGX2\"]},\"d:/contract/iotabee/core/interfaces/IERC20.sol\":{\"keccak256\":\"0x60acceecff3b37de3e598db1676ac9196e960425d5ca976e60dcad66f98c0b84\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://124ff2848df436b38d27e25ec504b3bbc23a4cfffdd44f6cba3fd4404edc09f9\",\"dweb:/ipfs/QmZ9WJy6bHsxu26sXRyWkiJmk5B6pGDWvMeYL9NVTQTFfN\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapCallee.sol\":{\"keccak256\":\"0x26bad2220987d82fb44d7196b15ef3c16043ba9f01005d70971604a528b1b42e\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://33ae6cab9879f24c43e0e900b08bd3c2db1ae29692606529220c19fc2cd0f3ab\",\"dweb:/ipfs/Qmd6PLswYc3i5Pj637KEV5xhbU2fyBPz512pv9capWVNmi\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapERC20.sol\":{\"keccak256\":\"0x490d4c8c68a6a02f7000d04be1d3b08cb58d0f52454745a285f6bbefaca2c6ea\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://0655f6a7f4f150456f218d6e3aae19e6321023d7921a99c3d77ac68551fb17fc\",\"dweb:/ipfs/Qmf9LsC9ZXg7LEfnKZ5mGF3hL5DPuSviRxKn5rBXUXFCYx\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapFactory.sol\":{\"keccak256\":\"0x2fc5ae42125d4068eb2e515cef6be7eee7e5323a440c891629f96de39a2d4d3b\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://972990727a3430e5b6ec208ac7e863b9a607bf95b4d5f0b1e7bdc53fe8d7b33a\",\"dweb:/ipfs/Qmbei1DQ7SHr6eDbvj6wusSARoNLXz88yNgddPuwawGLkw\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapPool.sol\":{\"keccak256\":\"0xcbf8d51db695470cd023d092b19ffa4ebe50fbb222d1b89eee729f40f9195e0b\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://03f5892179c7af1a8a1e34dfaad0b8850c778c793ce356e1fcfba9288ab8a380\",\"dweb:/ipfs/Qme1kEZHC22J7BvehFBhWdEJYpZFRE7v4bT2mFu1TDvHQg\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapPoolDeployer.sol\":{\"keccak256\":\"0x20a02be978614ea578bae47c97351ceb1e4f8467fc45a44c617cd6c8a3e6b358\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://b0b3b1d91f5fcc55519aa8e8830b58cebf10ea6ee1d4ab6ceebb309884821ec2\",\"dweb:/ipfs/QmUZ9pwYmeZus8tqpsF3nPn8ww5qja8tp4wovSXRssWjko\"]},\"d:/contract/iotabee/core/libraries/Math.sol\":{\"keccak256\":\"0x73a6eceb26cd3d0c130da0ac6bc717b5ea7cb0d3b0417bd7d90c750d0070373d\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://8bd68895039b4b62955062ccf79650119f2702629e1e71ec7ba0e1c8d3bfb2d3\",\"dweb:/ipfs/QmPhoG8K9s879AN1xHnjeJStX8WaLgajmYXoBLM7qZbvG9\"]},\"d:/contract/iotabee/core/libraries/UQ112x112.sol\":{\"keccak256\":\"0xd42bfbb8a8b00559e5781ab0319e87857381167d72a2351756ce92b9b3d06886\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://4b4ffff2217d2ccae4a16feeee068a1b0a3864f0f0fa782c7f7c84faa2330df2\",\"dweb:/ipfs/QmZ5mmpQm4Tu23Qo6PQVpKcS6Q6n4NHwLemyZhCk91RJBK\"]}},\"version\":1}",
-    "bytecode": "6080604052348015600f57600080fd5b5060ca8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638903573014602d575b600080fd5b600054600154600254605b926001600160a01b039081169281169190811690600160a01b900462ffffff1684565b604080516001600160a01b0395861681529385166020850152919093169082015262ffffff909116606082015260800160405180910390f3fea2646970667358221220e7f857b73359171312efd85bf32e01ba4b7a3b53b79e4b8e4f16d82b9e24b45b64736f6c63430008110033",
-    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c80638903573014602d575b600080fd5b600054600154600254605b926001600160a01b039081169281169190811690600160a01b900462ffffff1684565b604080516001600160a01b0395861681529385166020850152919093169082015262ffffff909116606082015260800160405180910390f3fea2646970667358221220e7f857b73359171312efd85bf32e01ba4b7a3b53b79e4b8e4f16d82b9e24b45b64736f6c63430008110033",
+    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"parameters\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"factory\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"token0\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"token1\",\"type\":\"address\"},{\"internalType\":\"uint24\",\"name\":\"feeRate\",\"type\":\"uint24\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/contract/iotabee/core/IotaBeeSwapPoolDeployer.sol\":\"IotaBeeSwapPoolDeployer\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/contract/iotabee/core/IotaBeeSwapERC20.sol\":{\"keccak256\":\"0xeef0c997a8c05e619b0b39f099021c36381bbca6a117d6edc593206ec430bfb8\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://01d3b734e208507687655c993018b09c8e74ae3a46b41c36680bc0f3726259f9\",\"dweb:/ipfs/QmNYPsCPJUDKrw9CpitBqBSoX9Kuao3mbxYLXdfEV5DRQn\"]},\"d:/contract/iotabee/core/IotaBeeSwapPool.sol\":{\"keccak256\":\"0x1a14eb3c78358bd2ecc3927633e2aaa5c37585cc007f8afe467be2c157269823\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://d0d245c713e9aa9f0706bf81796262402d5309455dbdc0a366dd7a193c982189\",\"dweb:/ipfs/QmeUxneN1SLFzqbTXqNzTvhBzx8wpnG9jQUqUTXtGoGM9y\"]},\"d:/contract/iotabee/core/IotaBeeSwapPoolDeployer.sol\":{\"keccak256\":\"0xcd925b7ec9c316b904a2693fcc001c844d7c3d8c0b9972a62519ec987e2d625c\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://c2ca4b2704a653e3e3a64ba823b1997793a886f9582f5831d66590c049b01d5e\",\"dweb:/ipfs/QmTWYbaKdbiMHscpuU5ug7xF2N6axE66x6myhiBjoxZGX2\"]},\"d:/contract/iotabee/core/interfaces/IERC20.sol\":{\"keccak256\":\"0x60acceecff3b37de3e598db1676ac9196e960425d5ca976e60dcad66f98c0b84\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://124ff2848df436b38d27e25ec504b3bbc23a4cfffdd44f6cba3fd4404edc09f9\",\"dweb:/ipfs/QmZ9WJy6bHsxu26sXRyWkiJmk5B6pGDWvMeYL9NVTQTFfN\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapCallee.sol\":{\"keccak256\":\"0x26bad2220987d82fb44d7196b15ef3c16043ba9f01005d70971604a528b1b42e\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://33ae6cab9879f24c43e0e900b08bd3c2db1ae29692606529220c19fc2cd0f3ab\",\"dweb:/ipfs/Qmd6PLswYc3i5Pj637KEV5xhbU2fyBPz512pv9capWVNmi\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapERC20.sol\":{\"keccak256\":\"0x490d4c8c68a6a02f7000d04be1d3b08cb58d0f52454745a285f6bbefaca2c6ea\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://0655f6a7f4f150456f218d6e3aae19e6321023d7921a99c3d77ac68551fb17fc\",\"dweb:/ipfs/Qmf9LsC9ZXg7LEfnKZ5mGF3hL5DPuSviRxKn5rBXUXFCYx\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapFactory.sol\":{\"keccak256\":\"0x989d2e941faf527053953cbf10c04ccc05b9714db7760b892eefe6db1144013c\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://73fc60e8abf34d4d025c4f9ad6e5b0fe88f4d9650f1a18f3ea1e54445ae8e549\",\"dweb:/ipfs/QmSjRmZco6pgh7atihDkzKxBChVtwGRfHCvbQk6LLXZKUt\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapPool.sol\":{\"keccak256\":\"0xcbf8d51db695470cd023d092b19ffa4ebe50fbb222d1b89eee729f40f9195e0b\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://03f5892179c7af1a8a1e34dfaad0b8850c778c793ce356e1fcfba9288ab8a380\",\"dweb:/ipfs/Qme1kEZHC22J7BvehFBhWdEJYpZFRE7v4bT2mFu1TDvHQg\"]},\"d:/contract/iotabee/core/interfaces/IIotaBeeSwapPoolDeployer.sol\":{\"keccak256\":\"0x20a02be978614ea578bae47c97351ceb1e4f8467fc45a44c617cd6c8a3e6b358\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://b0b3b1d91f5fcc55519aa8e8830b58cebf10ea6ee1d4ab6ceebb309884821ec2\",\"dweb:/ipfs/QmUZ9pwYmeZus8tqpsF3nPn8ww5qja8tp4wovSXRssWjko\"]},\"d:/contract/iotabee/core/libraries/Math.sol\":{\"keccak256\":\"0x73a6eceb26cd3d0c130da0ac6bc717b5ea7cb0d3b0417bd7d90c750d0070373d\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://8bd68895039b4b62955062ccf79650119f2702629e1e71ec7ba0e1c8d3bfb2d3\",\"dweb:/ipfs/QmPhoG8K9s879AN1xHnjeJStX8WaLgajmYXoBLM7qZbvG9\"]},\"d:/contract/iotabee/core/libraries/UQ112x112.sol\":{\"keccak256\":\"0xd42bfbb8a8b00559e5781ab0319e87857381167d72a2351756ce92b9b3d06886\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://4b4ffff2217d2ccae4a16feeee068a1b0a3864f0f0fa782c7f7c84faa2330df2\",\"dweb:/ipfs/QmZ5mmpQm4Tu23Qo6PQVpKcS6Q6n4NHwLemyZhCk91RJBK\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b5060ca8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638903573014602d575b600080fd5b600054600154600254605b926001600160a01b039081169281169190811690600160a01b900462ffffff1684565b604080516001600160a01b0395861681529385166020850152919093169082015262ffffff909116606082015260800160405180910390f3fea2646970667358221220d3ec8207c1031b6f729cddb8405741aec120972653a2f59d20da7b8ff7b4f25c64736f6c63430008110033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c80638903573014602d575b600080fd5b600054600154600254605b926001600160a01b039081169281169190811690600160a01b900462ffffff1684565b604080516001600160a01b0395861681529385166020850152919093169082015262ffffff909116606082015260800160405180910390f3fea2646970667358221220d3ec8207c1031b6f729cddb8405741aec120972653a2f59d20da7b8ff7b4f25c64736f6c63430008110033",
     "sourceMap": "153:1244:3:-:0;;;;;;;;;;;;;;;;;;;",
-    "deployedSourceMap": "153:1244:3:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;356:28;;;;;;;;;-1:-1:-1;;;;;356:28:3;;;;;;;;;;;-1:-1:-1;;;356:28:3;;;;;;;;;;-1:-1:-1;;;;;299:15:28;;;281:34;;351:15;;;346:2;331:18;;324:43;403:15;;;;383:18;;;376:43;467:8;455:21;;;450:2;435:18;;428:49;230:3;215:19;356:28:3;;;;;;",
+    "deployedSourceMap": "153:1244:3:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;356:28;;;;;;;;;-1:-1:-1;;;;;356:28:3;;;;;;;;;;;-1:-1:-1;;;356:28:3;;;;;;;;;;-1:-1:-1;;;;;299:15:27;;;281:34;;351:15;;;346:2;331:18;;324:43;403:15;;;;383:18;;;376:43;467:8;455:21;;;450:2;435:18;;428:49;230:3;215:19;356:28:3;;;;;;",
     "sourcePath": "d:/contract/iotabee/core/IotaBeeSwapPoolDeployer.sol",
     "compiler": {
         "name": "solc",
@@ -44,45 +44,45 @@
         "absolutePath": "d:/contract/iotabee/core/IotaBeeSwapPoolDeployer.sol",
         "exportedSymbols": {
             "IERC20": [
-                1781
+                1794
             ],
             "IIotaBeeSwapCallee": [
-                1795
+                1808
             ],
             "IIotaBeeSwapERC20": [
-                1835
+                1848
             ],
             "IIotaBeeSwapFactory": [
-                1917
+                1932
             ],
             "IIotaBeeSwapPool": [
-                2050
+                2065
             ],
             "IIotaBeeSwapPoolDeployer": [
-                2064
+                2079
             ],
             "IotaBeeSwapERC20": [
-                625
+                638
             ],
             "IotaBeeSwapPool": [
-                1632
+                1645
             ],
             "IotaBeeSwapPoolDeployer": [
-                1697
+                1710
             ],
             "Math": [
-                2140
+                2155
             ],
             "UQ112x112": [
-                2184
+                2199
             ]
         },
-        "id": 1698,
+        "id": 1711,
         "license": "UNLICENSED",
         "nodeType": "SourceUnit",
         "nodes": [
             {
-                "id": 1634,
+                "id": 1647,
                 "literals": [
                     "solidity",
                     "=",
@@ -95,11 +95,11 @@
             {
                 "absolutePath": "d:/contract/iotabee/core/IotaBeeSwapPool.sol",
                 "file": "./IotaBeeSwapPool.sol",
-                "id": 1635,
+                "id": 1648,
                 "nameLocation": "-1:-1:-1",
                 "nodeType": "ImportDirective",
-                "scope": 1698,
-                "sourceUnit": 1633,
+                "scope": 1711,
+                "sourceUnit": 1646,
                 "src": "65:31:3",
                 "symbolAliases": [],
                 "unitAlias": ""
@@ -107,11 +107,11 @@
             {
                 "absolutePath": "d:/contract/iotabee/core/interfaces/IIotaBeeSwapPoolDeployer.sol",
                 "file": "./interfaces/IIotaBeeSwapPoolDeployer.sol",
-                "id": 1636,
+                "id": 1649,
                 "nameLocation": "-1:-1:-1",
                 "nodeType": "ImportDirective",
-                "scope": 1698,
-                "sourceUnit": 2065,
+                "scope": 1711,
+                "sourceUnit": 2080,
                 "src": "98:51:3",
                 "symbolAliases": [],
                 "unitAlias": ""
@@ -121,16 +121,16 @@
                 "baseContracts": [
                     {
                         "baseName": {
-                            "id": 1637,
+                            "id": 1650,
                             "name": "IIotaBeeSwapPoolDeployer",
                             "nameLocations": [
                                 "189:24:3"
                             ],
                             "nodeType": "IdentifierPath",
-                            "referencedDeclaration": 2064,
+                            "referencedDeclaration": 2079,
                             "src": "189:24:3"
                         },
-                        "id": 1638,
+                        "id": 1651,
                         "nodeType": "InheritanceSpecifier",
                         "src": "189:24:3"
                     }
@@ -139,10 +139,10 @@
                 "contractDependencies": [],
                 "contractKind": "contract",
                 "fullyImplemented": true,
-                "id": 1697,
+                "id": 1710,
                 "linearizedBaseContracts": [
-                    1697,
-                    2064
+                    1710,
+                    2079
                 ],
                 "name": "IotaBeeSwapPoolDeployer",
                 "nameLocation": "162:23:3",
@@ -150,16 +150,16 @@
                 "nodes": [
                     {
                         "canonicalName": "IotaBeeSwapPoolDeployer.Parameters",
-                        "id": 1647,
+                        "id": 1660,
                         "members": [
                             {
                                 "constant": false,
-                                "id": 1640,
+                                "id": 1653,
                                 "mutability": "mutable",
                                 "name": "factory",
                                 "nameLocation": "258:7:3",
                                 "nodeType": "VariableDeclaration",
-                                "scope": 1647,
+                                "scope": 1660,
                                 "src": "250:15:3",
                                 "stateVariable": false,
                                 "storageLocation": "default",
@@ -168,7 +168,7 @@
                                     "typeString": "address"
                                 },
                                 "typeName": {
-                                    "id": 1639,
+                                    "id": 1652,
                                     "name": "address",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "250:7:3",
@@ -182,12 +182,12 @@
                             },
                             {
                                 "constant": false,
-                                "id": 1642,
+                                "id": 1655,
                                 "mutability": "mutable",
                                 "name": "token0",
                                 "nameLocation": "284:6:3",
                                 "nodeType": "VariableDeclaration",
-                                "scope": 1647,
+                                "scope": 1660,
                                 "src": "276:14:3",
                                 "stateVariable": false,
                                 "storageLocation": "default",
@@ -196,7 +196,7 @@
                                     "typeString": "address"
                                 },
                                 "typeName": {
-                                    "id": 1641,
+                                    "id": 1654,
                                     "name": "address",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "276:7:3",
@@ -210,12 +210,12 @@
                             },
                             {
                                 "constant": false,
-                                "id": 1644,
+                                "id": 1657,
                                 "mutability": "mutable",
                                 "name": "token1",
                                 "nameLocation": "309:6:3",
                                 "nodeType": "VariableDeclaration",
-                                "scope": 1647,
+                                "scope": 1660,
                                 "src": "301:14:3",
                                 "stateVariable": false,
                                 "storageLocation": "default",
@@ -224,7 +224,7 @@
                                     "typeString": "address"
                                 },
                                 "typeName": {
-                                    "id": 1643,
+                                    "id": 1656,
                                     "name": "address",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "301:7:3",
@@ -238,12 +238,12 @@
                             },
                             {
                                 "constant": false,
-                                "id": 1646,
+                                "id": 1659,
                                 "mutability": "mutable",
                                 "name": "feeRate",
                                 "nameLocation": "333:7:3",
                                 "nodeType": "VariableDeclaration",
-                                "scope": 1647,
+                                "scope": 1660,
                                 "src": "326:14:3",
                                 "stateVariable": false,
                                 "storageLocation": "default",
@@ -252,7 +252,7 @@
                                     "typeString": "uint24"
                                 },
                                 "typeName": {
-                                    "id": 1645,
+                                    "id": 1658,
                                     "name": "uint24",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "326:6:3",
@@ -267,46 +267,46 @@
                         "name": "Parameters",
                         "nameLocation": "228:10:3",
                         "nodeType": "StructDefinition",
-                        "scope": 1697,
+                        "scope": 1710,
                         "src": "221:127:3",
                         "visibility": "public"
                     },
                     {
                         "baseFunctions": [
-                            2063
+                            2078
                         ],
                         "constant": false,
                         "functionSelector": "89035730",
-                        "id": 1650,
+                        "id": 1663,
                         "mutability": "mutable",
                         "name": "parameters",
                         "nameLocation": "374:10:3",
                         "nodeType": "VariableDeclaration",
-                        "scope": 1697,
+                        "scope": 1710,
                         "src": "356:28:3",
                         "stateVariable": true,
                         "storageLocation": "default",
                         "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Parameters_$1647_storage",
+                            "typeIdentifier": "t_struct$_Parameters_$1660_storage",
                             "typeString": "struct IotaBeeSwapPoolDeployer.Parameters"
                         },
                         "typeName": {
-                            "id": 1649,
+                            "id": 1662,
                             "nodeType": "UserDefinedTypeName",
                             "pathNode": {
-                                "id": 1648,
+                                "id": 1661,
                                 "name": "Parameters",
                                 "nameLocations": [
                                     "356:10:3"
                                 ],
                                 "nodeType": "IdentifierPath",
-                                "referencedDeclaration": 1647,
+                                "referencedDeclaration": 1660,
                                 "src": "356:10:3"
                             },
-                            "referencedDeclaration": 1647,
+                            "referencedDeclaration": 1660,
                             "src": "356:10:3",
                             "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Parameters_$1647_storage_ptr",
+                                "typeIdentifier": "t_struct$_Parameters_$1660_storage_ptr",
                                 "typeString": "struct IotaBeeSwapPoolDeployer.Parameters"
                             }
                         },
@@ -314,26 +314,26 @@
                     },
                     {
                         "body": {
-                            "id": 1695,
+                            "id": 1708,
                             "nodeType": "Block",
                             "src": "1033:361:3",
                             "statements": [
                                 {
                                     "expression": {
-                                        "id": 1671,
+                                        "id": 1684,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 1664,
+                                            "id": 1677,
                                             "name": "parameters",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1650,
+                                            "referencedDeclaration": 1663,
                                             "src": "1044:10:3",
                                             "typeDescriptions": {
-                                                "typeIdentifier": "t_struct$_Parameters_$1647_storage",
+                                                "typeIdentifier": "t_struct$_Parameters_$1660_storage",
                                                 "typeString": "struct IotaBeeSwapPoolDeployer.Parameters storage ref"
                                             }
                                         },
@@ -342,11 +342,11 @@
                                         "rightHandSide": {
                                             "arguments": [
                                                 {
-                                                    "id": 1666,
+                                                    "id": 1679,
                                                     "name": "factory",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1653,
+                                                    "referencedDeclaration": 1666,
                                                     "src": "1092:7:3",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_address",
@@ -354,11 +354,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "id": 1667,
+                                                    "id": 1680,
                                                     "name": "token0",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1655,
+                                                    "referencedDeclaration": 1668,
                                                     "src": "1122:6:3",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_address",
@@ -366,11 +366,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "id": 1668,
+                                                    "id": 1681,
                                                     "name": "token1",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1657,
+                                                    "referencedDeclaration": 1670,
                                                     "src": "1151:6:3",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_address",
@@ -378,11 +378,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "id": 1669,
+                                                    "id": 1682,
                                                     "name": "feeRate",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1659,
+                                                    "referencedDeclaration": 1672,
                                                     "src": "1181:7:3",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_uint24",
@@ -409,18 +409,18 @@
                                                         "typeString": "uint24"
                                                     }
                                                 ],
-                                                "id": 1665,
+                                                "id": 1678,
                                                 "name": "Parameters",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1647,
+                                                "referencedDeclaration": 1660,
                                                 "src": "1057:10:3",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_type$_t_struct$_Parameters_$1647_storage_ptr_$",
+                                                    "typeIdentifier": "t_type$_t_struct$_Parameters_$1660_storage_ptr_$",
                                                     "typeString": "type(struct IotaBeeSwapPoolDeployer.Parameters storage pointer)"
                                                 }
                                             },
-                                            "id": 1670,
+                                            "id": 1683,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
@@ -442,33 +442,33 @@
                                             "src": "1057:143:3",
                                             "tryCall": false,
                                             "typeDescriptions": {
-                                                "typeIdentifier": "t_struct$_Parameters_$1647_memory_ptr",
+                                                "typeIdentifier": "t_struct$_Parameters_$1660_memory_ptr",
                                                 "typeString": "struct IotaBeeSwapPoolDeployer.Parameters memory"
                                             }
                                         },
                                         "src": "1044:156:3",
                                         "typeDescriptions": {
-                                            "typeIdentifier": "t_struct$_Parameters_$1647_storage",
+                                            "typeIdentifier": "t_struct$_Parameters_$1660_storage",
                                             "typeString": "struct IotaBeeSwapPoolDeployer.Parameters storage ref"
                                         }
                                     },
-                                    "id": 1672,
+                                    "id": 1685,
                                     "nodeType": "ExpressionStatement",
                                     "src": "1044:156:3"
                                 },
                                 {
                                     "expression": {
-                                        "id": 1690,
+                                        "id": 1703,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 1673,
+                                            "id": 1686,
                                             "name": "pool",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1662,
+                                            "referencedDeclaration": 1675,
                                             "src": "1211:4:3",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_address",
@@ -485,7 +485,7 @@
                                                         "argumentTypes": [],
                                                         "expression": {
                                                             "argumentTypes": [],
-                                                            "id": 1678,
+                                                            "id": 1691,
                                                             "isConstant": false,
                                                             "isLValue": false,
                                                             "isPure": false,
@@ -493,31 +493,31 @@
                                                             "nodeType": "NewExpression",
                                                             "src": "1240:19:3",
                                                             "typeDescriptions": {
-                                                                "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_IotaBeeSwapPool_$1632_$",
+                                                                "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_IotaBeeSwapPool_$1645_$",
                                                                 "typeString": "function () returns (contract IotaBeeSwapPool)"
                                                             },
                                                             "typeName": {
-                                                                "id": 1677,
+                                                                "id": 1690,
                                                                 "nodeType": "UserDefinedTypeName",
                                                                 "pathNode": {
-                                                                    "id": 1676,
+                                                                    "id": 1689,
                                                                     "name": "IotaBeeSwapPool",
                                                                     "nameLocations": [
                                                                         "1244:15:3"
                                                                     ],
                                                                     "nodeType": "IdentifierPath",
-                                                                    "referencedDeclaration": 1632,
+                                                                    "referencedDeclaration": 1645,
                                                                     "src": "1244:15:3"
                                                                 },
-                                                                "referencedDeclaration": 1632,
+                                                                "referencedDeclaration": 1645,
                                                                 "src": "1244:15:3",
                                                                 "typeDescriptions": {
-                                                                    "typeIdentifier": "t_contract$_IotaBeeSwapPool_$1632",
+                                                                    "typeIdentifier": "t_contract$_IotaBeeSwapPool_$1645",
                                                                     "typeString": "contract IotaBeeSwapPool"
                                                                 }
                                                             }
                                                         },
-                                                        "id": 1687,
+                                                        "id": 1700,
                                                         "isConstant": false,
                                                         "isLValue": false,
                                                         "isPure": false,
@@ -532,11 +532,11 @@
                                                                     {
                                                                         "arguments": [
                                                                             {
-                                                                                "id": 1682,
+                                                                                "id": 1695,
                                                                                 "name": "token0",
                                                                                 "nodeType": "Identifier",
                                                                                 "overloadedDeclarations": [],
-                                                                                "referencedDeclaration": 1655,
+                                                                                "referencedDeclaration": 1668,
                                                                                 "src": "1305:6:3",
                                                                                 "typeDescriptions": {
                                                                                     "typeIdentifier": "t_address",
@@ -544,11 +544,11 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "id": 1683,
+                                                                                "id": 1696,
                                                                                 "name": "token1",
                                                                                 "nodeType": "Identifier",
                                                                                 "overloadedDeclarations": [],
-                                                                                "referencedDeclaration": 1657,
+                                                                                "referencedDeclaration": 1670,
                                                                                 "src": "1313:6:3",
                                                                                 "typeDescriptions": {
                                                                                     "typeIdentifier": "t_address",
@@ -556,11 +556,11 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "id": 1684,
+                                                                                "id": 1697,
                                                                                 "name": "feeRate",
                                                                                 "nodeType": "Identifier",
                                                                                 "overloadedDeclarations": [],
-                                                                                "referencedDeclaration": 1659,
+                                                                                "referencedDeclaration": 1672,
                                                                                 "src": "1321:7:3",
                                                                                 "typeDescriptions": {
                                                                                     "typeIdentifier": "t_uint24",
@@ -584,7 +584,7 @@
                                                                                 }
                                                                             ],
                                                                             "expression": {
-                                                                                "id": 1680,
+                                                                                "id": 1693,
                                                                                 "name": "abi",
                                                                                 "nodeType": "Identifier",
                                                                                 "overloadedDeclarations": [],
@@ -595,7 +595,7 @@
                                                                                     "typeString": "abi"
                                                                                 }
                                                                             },
-                                                                            "id": 1681,
+                                                                            "id": 1694,
                                                                             "isConstant": false,
                                                                             "isLValue": false,
                                                                             "isPure": true,
@@ -609,7 +609,7 @@
                                                                                 "typeString": "function () pure returns (bytes memory)"
                                                                             }
                                                                         },
-                                                                        "id": 1685,
+                                                                        "id": 1698,
                                                                         "isConstant": false,
                                                                         "isLValue": false,
                                                                         "isPure": false,
@@ -633,7 +633,7 @@
                                                                             "typeString": "bytes memory"
                                                                         }
                                                                     ],
-                                                                    "id": 1679,
+                                                                    "id": 1692,
                                                                     "name": "keccak256",
                                                                     "nodeType": "Identifier",
                                                                     "overloadedDeclarations": [],
@@ -644,7 +644,7 @@
                                                                         "typeString": "function (bytes memory) pure returns (bytes32)"
                                                                     }
                                                                 },
-                                                                "id": 1686,
+                                                                "id": 1699,
                                                                 "isConstant": false,
                                                                 "isLValue": false,
                                                                 "isPure": false,
@@ -663,11 +663,11 @@
                                                         ],
                                                         "src": "1240:105:3",
                                                         "typeDescriptions": {
-                                                            "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_IotaBeeSwapPool_$1632_$salt",
+                                                            "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_IotaBeeSwapPool_$1645_$salt",
                                                             "typeString": "function () returns (contract IotaBeeSwapPool)"
                                                         }
                                                     },
-                                                    "id": 1688,
+                                                    "id": 1701,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
@@ -679,7 +679,7 @@
                                                     "src": "1240:107:3",
                                                     "tryCall": false,
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_contract$_IotaBeeSwapPool_$1632",
+                                                        "typeIdentifier": "t_contract$_IotaBeeSwapPool_$1645",
                                                         "typeString": "contract IotaBeeSwapPool"
                                                     }
                                                 }
@@ -687,11 +687,11 @@
                                             "expression": {
                                                 "argumentTypes": [
                                                     {
-                                                        "typeIdentifier": "t_contract$_IotaBeeSwapPool_$1632",
+                                                        "typeIdentifier": "t_contract$_IotaBeeSwapPool_$1645",
                                                         "typeString": "contract IotaBeeSwapPool"
                                                     }
                                                 ],
-                                                "id": 1675,
+                                                "id": 1688,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": true,
@@ -703,14 +703,14 @@
                                                     "typeString": "type(address)"
                                                 },
                                                 "typeName": {
-                                                    "id": 1674,
+                                                    "id": 1687,
                                                     "name": "address",
                                                     "nodeType": "ElementaryTypeName",
                                                     "src": "1218:7:3",
                                                     "typeDescriptions": {}
                                                 }
                                             },
-                                            "id": 1689,
+                                            "id": 1702,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
@@ -732,13 +732,13 @@
                                             "typeString": "address"
                                         }
                                     },
-                                    "id": 1691,
+                                    "id": 1704,
                                     "nodeType": "ExpressionStatement",
                                     "src": "1211:147:3"
                                 },
                                 {
                                     "expression": {
-                                        "id": 1693,
+                                        "id": 1706,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -748,14 +748,14 @@
                                         "prefix": true,
                                         "src": "1369:17:3",
                                         "subExpression": {
-                                            "id": 1692,
+                                            "id": 1705,
                                             "name": "parameters",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1650,
+                                            "referencedDeclaration": 1663,
                                             "src": "1376:10:3",
                                             "typeDescriptions": {
-                                                "typeIdentifier": "t_struct$_Parameters_$1647_storage",
+                                                "typeIdentifier": "t_struct$_Parameters_$1660_storage",
                                                 "typeString": "struct IotaBeeSwapPoolDeployer.Parameters storage ref"
                                             }
                                         },
@@ -764,19 +764,19 @@
                                             "typeString": "tuple()"
                                         }
                                     },
-                                    "id": 1694,
+                                    "id": 1707,
                                     "nodeType": "ExpressionStatement",
                                     "src": "1369:17:3"
                                 }
                             ]
                         },
                         "documentation": {
-                            "id": 1651,
+                            "id": 1664,
                             "nodeType": "StructuredDocumentation",
                             "src": "393:478:3",
                             "text": "@dev Deploys a pool with the given parameters by transiently setting the parameters storage slot and then\n clearing it after deploying the pool.\n @param factory The contract address of the IotaBeeSwap factory\n @param token0 The first token of the pool by address sort order\n @param token1 The second token of the pool by address sort order\n @param feeRate The fee collected upon every swap in the pool, multiple 100000 for percentages"
                         },
-                        "id": 1696,
+                        "id": 1709,
                         "implemented": true,
                         "kind": "function",
                         "modifiers": [],
@@ -784,17 +784,17 @@
                         "nameLocation": "886:6:3",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 1660,
+                            "id": 1673,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 1653,
+                                    "id": 1666,
                                     "mutability": "mutable",
                                     "name": "factory",
                                     "nameLocation": "911:7:3",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1696,
+                                    "scope": 1709,
                                     "src": "903:15:3",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -803,7 +803,7 @@
                                         "typeString": "address"
                                     },
                                     "typeName": {
-                                        "id": 1652,
+                                        "id": 1665,
                                         "name": "address",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "903:7:3",
@@ -817,12 +817,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 1655,
+                                    "id": 1668,
                                     "mutability": "mutable",
                                     "name": "token0",
                                     "nameLocation": "937:6:3",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1696,
+                                    "scope": 1709,
                                     "src": "929:14:3",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -831,7 +831,7 @@
                                         "typeString": "address"
                                     },
                                     "typeName": {
-                                        "id": 1654,
+                                        "id": 1667,
                                         "name": "address",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "929:7:3",
@@ -845,12 +845,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 1657,
+                                    "id": 1670,
                                     "mutability": "mutable",
                                     "name": "token1",
                                     "nameLocation": "962:6:3",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1696,
+                                    "scope": 1709,
                                     "src": "954:14:3",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -859,7 +859,7 @@
                                         "typeString": "address"
                                     },
                                     "typeName": {
-                                        "id": 1656,
+                                        "id": 1669,
                                         "name": "address",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "954:7:3",
@@ -873,12 +873,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 1659,
+                                    "id": 1672,
                                     "mutability": "mutable",
                                     "name": "feeRate",
                                     "nameLocation": "986:7:3",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1696,
+                                    "scope": 1709,
                                     "src": "979:14:3",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -887,7 +887,7 @@
                                         "typeString": "uint24"
                                     },
                                     "typeName": {
-                                        "id": 1658,
+                                        "id": 1671,
                                         "name": "uint24",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "979:6:3",
@@ -902,17 +902,17 @@
                             "src": "892:108:3"
                         },
                         "returnParameters": {
-                            "id": 1663,
+                            "id": 1676,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 1662,
+                                    "id": 1675,
                                     "mutability": "mutable",
                                     "name": "pool",
                                     "nameLocation": "1027:4:3",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1696,
+                                    "scope": 1709,
                                     "src": "1019:12:3",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -921,7 +921,7 @@
                                         "typeString": "address"
                                     },
                                     "typeName": {
-                                        "id": 1661,
+                                        "id": 1674,
                                         "name": "address",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "1019:7:3",
@@ -936,14 +936,14 @@
                             ],
                             "src": "1018:14:3"
                         },
-                        "scope": 1697,
+                        "scope": 1710,
                         "src": "877:517:3",
                         "stateMutability": "nonpayable",
                         "virtual": false,
                         "visibility": "internal"
                     }
                 ],
-                "scope": 1698,
+                "scope": 1711,
                 "src": "153:1244:3",
                 "usedErrors": []
             }
