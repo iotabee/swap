@@ -8,7 +8,7 @@ library IotaBeeSwapLibrary {
 
     //keccak256(abi.encodePacked(type(IotaBeeSwapPool).creationCode));
     bytes32 internal constant POOL_INIT_CODE_HASH =
-        0x043b4002c4ea75c66a18ea59a72518d6a30c4629242b442a2e9eba2893d801ad;
+        0x5e56beb1eaf0cba823c3c478396bde06087037ea87ca05a00ed711dcd709c11a;
 
     // returns sorted token addresses, used to handle return values from pools sorted in this order
     function sortTokens(address tokenA, address tokenB)
