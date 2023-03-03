@@ -12,3 +12,5 @@ artifacts
 #contract
 contracts/periphery/IotaBeeSwapLpRouter.sol
 contracts/periphery/IotaBeeSwapSRouter.sol
+contracts/periphery/interfaces/IIotaBeeSwapLpRouter.sol
+contracts/periphery/interfaces/IIotaBeeSwapSRouter.sol
