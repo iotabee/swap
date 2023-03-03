@@ -74,4 +74,8 @@ contract IotaBeeSwapFactory is IIotaBeeSwapFactory, IotaBeeSwapPoolDeployer {
         owner = newOwner;
         newOwner = address(0);
     }
+
+    function POOL_INIT_CODE_HASH() public pure returns(bytes32){
+        return keccak256(abi.encodePacked(type(IotaBeeSwapPool).creationCode));
+    }
 }

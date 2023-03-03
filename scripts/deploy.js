@@ -11,20 +11,22 @@ async function main() {
   const IotaBeeSwapFactory = await hre.ethers.getContractFactory("IotaBeeSwapFactory");
   const ibsf = await IotaBeeSwapFactory.deploy();
 
-  const WSMR = await hre.ethers.getContractFactory("WSMR");
-  const wsmr = await WSMR.deploy();
+//  const WSMR = await hre.ethers.getContractFactory("WSMR");
+//  const wsmr = await WSMR.deploy();
 
   await ibsf.deployed();
-  await wsmr.deployed();
+//  await wsmr.deployed();
 
   console.log(`Deployed IotaBeeSwapFactory to ${ibsf.address}`);
-  console.log(`Deployed WSMR to ${wsmr.address}`);
+ // console.log(`Deployed WSMR to ${wsmr.address}`);
 
-  const IotaBeeSwapRouter = await hre.ethers.getContractFactory("IotaBeeSwapRouter");
-  const ibsr = await IotaBeeSwapRouter.deploy(ibsf.address,wsmr.address);
-  await ibsr.deployed();
+  //hre.ethers.Contract(ibsf.address, )
 
-  console.log(`Deployed IotaBeeSwapRouter to ${ibsr.address}`);
+// const IotaBeeSwapRouter = await hre.ethers.getContractFactory("IotaBeeSwapRouter");
+// const ibsr = await IotaBeeSwapRouter.deploy(ibsf.address,wsmr.address);
+// await ibsr.deployed();
+
+//  console.log(`Deployed IotaBeeSwapRouter to ${ibsr.address}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
