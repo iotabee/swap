@@ -5,22 +5,26 @@
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
 const hre = require("hardhat");
+const web3 = require("web3");
 
 async function main() {
-  const currentTimestampInSeconds = Math.round(Date.now() / 1000);
-  const ONE_YEAR_IN_SECS = 365 * 24 * 60 * 60;
-  const unlockTime = currentTimestampInSeconds + ONE_YEAR_IN_SECS;
+  const IotaBeeSwapFactory = await hre.ethers.getContractFactory("IotaBeeSwapFactory");
+  const ibsf = await IotaBeeSwapFactory.deploy();
 
-  const lockedAmount = hre.ethers.utils.parseEther("1");
+  const WSMR = await hre.ethers.getContractFactory("WSMR");
+  const wsmr = await WSMR.deploy();
 
-  const Lock = await hre.ethers.getContractFactory("Lock");
-  const lock = await Lock.deploy(unlockTime, { value: lockedAmount });
+  await ibsf.deployed();
+  await wsmr.deployed();
 
-  await lock.deployed();
+  console.log(`Deployed IotaBeeSwapFactory to ${ibsf.address}`);
+  console.log(`Deployed WSMR to ${wsmr.address}`);
 
-  console.log(
-    `Lock with 1 ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}`
-  );
+  const IotaBeeSwapRouter = await hre.ethers.getContractFactory("IotaBeeSwapRouter");
+  const ibsr = await IotaBeeSwapRouter.deploy(ibsf.address,wsmr.address);
+  await ibsr.deployed();
+
+  console.log(`Deployed IotaBeeSwapRouter to ${ibsr.address}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
