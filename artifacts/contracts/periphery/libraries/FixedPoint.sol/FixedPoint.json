@@ -1,0 +1,37 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "FixedPoint",
+  "sourceName": "contracts/periphery/libraries/FixedPoint.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "Q112",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "RESOLUTION",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60ad610039600b82828239805160001a60731461002c57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe7300000000000000000000000000000000000000003014608060405260043610603d5760003560e01c80633bf7a83e146042578063552f888a14605f575b600080fd5b604c600160701b81565b6040519081526020015b60405180910390f35b6066607081565b60405160ff9091168152602001605656fea264697066735822122019a7dfcb9a380e48194cc12907758794f32250b3c89af2225ead79bc0d5c794264736f6c63430008110033",
+  "deployedBytecode": "0x7300000000000000000000000000000000000000003014608060405260043610603d5760003560e01c80633bf7a83e146042578063552f888a14605f575b600080fd5b604c600160701b81565b6040519081526020015b60405180910390f35b6066607081565b60405160ff9091168152602001605656fea264697066735822122019a7dfcb9a380e48194cc12907758794f32250b3c89af2225ead79bc0d5c794264736f6c63430008110033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

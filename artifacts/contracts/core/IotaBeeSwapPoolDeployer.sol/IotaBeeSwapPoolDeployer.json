@@ -1,0 +1,39 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IotaBeeSwapPoolDeployer",
+  "sourceName": "contracts/core/IotaBeeSwapPoolDeployer.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "parameters",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "factory",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "token0",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "token1",
+          "type": "address"
+        },
+        {
+          "internalType": "uint24",
+          "name": "feeRate",
+          "type": "uint24"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b5060ca8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638903573014602d575b600080fd5b600054600154600254605b926001600160a01b039081169281169190811690600160a01b900462ffffff1684565b604080516001600160a01b0395861681529385166020850152919093169082015262ffffff909116606082015260800160405180910390f3fea26469706673582212204d768c7329a7833519cb3e906bb0ceb890d36fba3651e9f3ccd5d12df6133c7a64736f6c63430008110033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80638903573014602d575b600080fd5b600054600154600254605b926001600160a01b039081169281169190811690600160a01b900462ffffff1684565b604080516001600160a01b0395861681529385166020850152919093169082015262ffffff909116606082015260800160405180910390f3fea26469706673582212204d768c7329a7833519cb3e906bb0ceb890d36fba3651e9f3ccd5d12df6133c7a64736f6c63430008110033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
