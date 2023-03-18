@@ -5,15 +5,13 @@
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
 const hre = require("hardhat");
-const web3 = require("web3");
 
 async function main() {
-  const factory = "0xC8ffF9572AA51114FB9c5D8b301e3392Da153D1f";
-  const wsmr = "0x626cced9e3e5402ac620a57a9bbd35884f75ebbc";
-  const IotaBeeSwapRouter = await hre.ethers.getContractFactory("IotaBeeSwapRouter");
-  const ibsr = await IotaBeeSwapRouter.deploy(factory, wsmr);
-  await ibsr.deployed();
-  console.log(`Deployed IotaBeeSwapRouter to ${ibsr.address}`);
+    const IotaBeeSwapFactory = await hre.ethers.getContractFactory("IotaBeeSwapFactory");
+    const factory = await IotaBeeSwapFactory.deploy();
+    
+    const code = await factory.POOL_INIT_CODE_HASH();
+    console.log(`Pool Code is ${code}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere

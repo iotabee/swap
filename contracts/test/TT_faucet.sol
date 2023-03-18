@@ -78,10 +78,9 @@ contract TestErc20 is IERC20 {
         return true;
     }
 
-    address[] receivers;
-    mapping(address => bool) public isFauceted;
-    uint256 public faucetAmount = 1000;
-    event Faucet(address indexed sender, uint256 amount);
+    mapping(address => uint256) public faucetLastOf;
+    uint256 public faucetAmount = 100;
+    event Faucet(address indexed sender, address indexed to, uint256 amount);
 
     function setFaucetAmount(uint256 amount) external returns (bool) {
         require(minter == msg.sender);
@@ -89,18 +88,13 @@ contract TestErc20 is IERC20 {
         return true;
     }
 
-    function faucet() external returns (bool) {
-        require(!isFauceted[msg.sender], "fauceted");
+    function faucet(address to) external returns (bool) {
+        require(block.timestamp > faucetLastOf[to] + 600, "time wait");
         uint256 amount = faucetAmount * (10**decimals);
-        balanceOf[msg.sender] += amount;
+        balanceOf[to] += amount;
         totalSupply += amount;
-        isFauceted[msg.sender] = true;
-        receivers.push(msg.sender);
-        emit Faucet(msg.sender, amount);
+        faucetLastOf[to] = block.timestamp;
+        emit Faucet(msg.sender, to, amount);
         return true;
-    }
-
-    function getReceivers() public view returns (address[] memory) {
-        return receivers;
     }
 }

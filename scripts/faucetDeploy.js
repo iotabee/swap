@@ -5,20 +5,22 @@
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
 const hre = require("hardhat");
-const web3 = require("web3");
 
 async function main() {
-  const factory = "0xC8ffF9572AA51114FB9c5D8b301e3392Da153D1f";
-  const wsmr = "0x626cced9e3e5402ac620a57a9bbd35884f75ebbc";
-  const IotaBeeSwapRouter = await hre.ethers.getContractFactory("IotaBeeSwapRouter");
-  const ibsr = await IotaBeeSwapRouter.deploy(factory, wsmr);
-  await ibsr.deployed();
-  console.log(`Deployed IotaBeeSwapRouter to ${ibsr.address}`);
+    const TestErc20 = await hre.ethers.getContractFactory("TestErc20");
+    const tt4 = await TestErc20.deploy("Test Token 4", "TT4", 18);
+    await tt4.deployed();
+    console.log(`Deployed TT4 to ${tt4.address}`);
+
+    const FaucetERC20 = await hre.ethers.getContractFactory("FaucetERC20");
+    const faucet = await FaucetERC20.deploy();
+    await faucet.deployed();
+    console.log(`Deployed FaucetERC20 to ${faucet.address}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
 // and properly handle errors.
 main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
+    console.error(error);
+    process.exitCode = 1;
 });
